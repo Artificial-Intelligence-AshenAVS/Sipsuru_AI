@@ -1,0 +1,227 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "patterns":[
+        "hi",
+        "Hi",
+        "Hey!",
+        "Hello",
+        "hi, is",
+        "Hey there!",
+        "Greetings!",
+        "Hi, hello!",
+        "Hey, hello!",
+        "hi, is this",
+        "Hi! Welcome",
+        "nice to meet",
+        "Hello there!",
+        "Good morning",
+        "Good evening!",
+        "nice meet you",
+        "Hello, friend!",
+        "Good afternoon",
+        "hi, is this is",
+        "nice to meet you",
+        "Nice meeting you",
+        "Hey there, hello!",
+        "Greetings, friend!",
+        "hi, is this is the",
+        "Hello and welcome!",
+        "pleasure to meet you",
+        "Pleasure meeting you",
+        "So glad we could meet",
+        "Delighted to meet you",
+        "Hello, good to see you!",
+        "Nice meeting you at last",
+        "Hi, it's nice to meet you",
+        "hi, is this is the sipsuru",
+        "Hey, hello! Ready to chat?",
+        "Such a pleasure to meet you",
+        "Hi there, how can I help you",
+        "Hi and a warm welcome to you",
+        "Hi there! How's your day going?",
+        "A warm welcome! Nice to meet you",
+        "A warm welcome! Nice to meet you",
+        "Hi there, how can I help you today",
+        "Nice to meet you I'm ready to help",
+        "Hi there! Welcome, it's great to have you",
+        "Nice to meet you! Feel free to ask anything",
+        "Hi, welcome aboard! Excited to have you join us",
+        "Hi there! Nice to meet you I'm here for any assistance you"
+        ],
+      
+      "responses":[
+        "Hey yo, do you need help ?",
+        "Welcome aboard, if we play a game may I help you ?",
+        "Hello my friend, How are you ?",
+        "Ha, Glad you showed up. How are you ?",
+        "Hi. Welcome to the class. How may I help you ?",
+        "Hi. I'm here, welcome you to the class. How can I assist you today ?",
+        "Hello my friend, Do you like play a game with me ?",
+        "Hi hi, my friend. How are you today ?",
+        "Hello my friend. Is good for you today ?"
+      ]
+    },
+    {
+      "tag":"goodbye",
+      "patterns":[
+        "Thank",
+        "Thanks",
+        "Thank you",
+        "Thanks you",
+        "Thanks info",
+        "i will catch",
+        "see you later",
+        "Thanks for info",
+        "Thanks the info",
+        "i will catch you",
+        "i catch you later",
+        "i will catch later",
+        "Thanks for the info",
+        "i will catch you later",
+        "Thank you for the details",
+        "Thanks for sharing that insight",
+        "Thanks for the info it was really helpful",
+        "Your insights were helpful. Thanks for the info",
+        "Thanks for the info! I appreciate your assistance",
+        "Thanks for the info; it really clarified things for me"
+        ],
+
+      "responses":[
+        "Goodbye",
+        "Take care",
+        "Okay, Bye",
+        "See you later",
+        "Okey, Take care",
+        "Have a nice day",
+        "We'll meet soon",
+        "Okey. Have a nice day",
+        "Nice conversation. Bye",
+        "Yeah sure, will talk to you later"
+      ]
+    },
+    {
+      "tag":"wantplaygame",
+      "patterns":[
+        "want game",
+        "want play game",
+        "i want to play",
+        "i want play game",
+        "i want to play the game",
+        "Sign me up for the game",
+        "I'm interested in playing",
+        "Let me join in on the game",
+        "I'm interested playing a game",
+        "I'm interested in playing game",
+        "I interested to playing a game",
+        "Count me in for a game session",
+        "Include me in the game, please",
+        "Let's get started with the game",
+        "I'm interested playing the game",
+        "I interested to playing the game",
+        "I interested in playing the game",
+        "I'm interested to playing a game",
+        "I'm interested in playing a game",
+        "i want to participate in the game",
+        "I'm interested in playing the game",
+        "I'm interested in joining the game",
+        "I'm interested to playing the game"
+        ],
+
+      "responses":[
+          "Okay, I count you for a game.",
+          "okay, I like to join you to a game.",
+          "Sure thing! I like to join you to a game, okay?",
+          "Absolutely! Okay, I like to join you to a game.",
+          "Okay, I'm game! I'd like to join you to a game.",
+          "Okay, sounds fun! I'd like to join you to a game.",
+          "Great idea! Okay, I'd like to join you to a game.",
+          "Alright, I'm on board! I like to join you to a game."
+          ]
+    },
+    {
+      "tag":"howami",
+      "patterns":[
+        "How are you?",
+        "How Are you?",
+        "How Are You?",
+        "how are you ?",
+        "are you fine ?",
+        "how's everythings",
+        "How are you doing today?",
+        "I am fine, how are you ?",
+        "how are things going on ?",
+        "How's everything with you?",
+        "everything going in okay ?",
+        "How are things on your end?",
+        "how are things on your end?",
+        "how's your day going so far?",
+        "Hey, friend! How are you feeling?",
+        "Just wanted to check in how are you?"
+        ],
+
+      "responses":[
+        "Yeah, am fine, Do you like play a game ?",
+        "Things are Great, Would you enjoy playing a game ?",
+        "I am Great, Are you interested in playing a game ?",
+        "Everything's going on well, Let's we play a game ?",
+        "Everything's great. Are you a fan of playing game ?",
+        "Doing good. thanks you are my best friend. Do you like play a game ?",
+        "I ma doing good. Need to go on an adventure. Are you into playing game ?"
+      ]
+      
+    },
+    {
+      "tag":"join",
+      "patterns":[
+        "ok",
+        "play",
+        "ok.we play",
+        "let's we play",
+        "how to join ?",
+        "ok.let's we play",
+        "how to get game ?",
+        "How to join game ?",
+        "how do i get game ?",
+        "how do i join the game ?",
+        "Sure, okay! Let's play now",
+        "Sure, okay! Let's play now.",
+        "Okay, let's play and have some fun"
+        ],
+
+      "responses":[
+        "Great. Now you add to the game.",
+        "Good now we play the game",
+        "Good choice. Come let's we play the game",
+        "Nice. It is very interesting game.Come, Let's we play"]
+      
+    },
+    {
+      "tag":"okresponse",
+      "patterns":[
+        "yes",
+        "yes help",
+        "yes i need help",
+        "yes i want help"
+        ],
+
+      "responses":["Great. Let's we play a game. Ok ?"]
+      
+    },
+    {
+      "tag":"noresponse",
+      "patterns":[
+        "no. I can not",
+        "no. I can not play now",
+        "no. I can't",
+        "no. I can't play now"
+        ],
+
+      "responses":["Why don't like to play game.Come I will guid you?",
+                   "Why don't you like to play game. It's very interesting game.",
+                   "Come come i will guid you to play the game."]
+      
+    }
+  ]
+}

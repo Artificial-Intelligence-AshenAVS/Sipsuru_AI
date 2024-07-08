@@ -1,0 +1,3052 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "patterns":[
+        "hi",
+        "Hi",
+        "Hey!",
+        "Hello",
+        "hi, is",
+        "Hey there!",
+        "Greetings!",
+        "Hi, hello!",
+        "Hey, hello!",
+        "hi, is this",
+        "Hi! Welcome",
+        "nice to meet",
+        "Hello there!",
+        "nice meet you",
+        "Hello, friend!",
+        "hi, is this is",
+        "nice to meet you",
+        "Nice meeting you",
+        "Hey there, hello!",
+        "Greetings, friend!",
+        "hi, is this is the",
+        "Hello and welcome!",
+        "pleasure to meet you",
+        "Pleasure meeting you",
+        "So glad we could meet",
+        "Delighted to meet you",
+        "Hello, good to see you!",
+        "Nice meeting you at last",
+        "Hi, it's nice to meet you",
+        "hi, is this the sipsuru",
+        "Hey, hello! Ready to chat?",
+        "Such a pleasure to meet you",
+        "Hi there, how can I help you",
+        "Hi and a warm welcome to you",
+        "Hi there! How's your day going?",
+        "A warm welcome! Nice to meet you",
+        "Hi there, how can I help you today",
+        "Nice to meet you I'm ready to help",
+        "Hi there! Welcome, it's great to have you",
+        "Nice to meet you! Feel free to ask anything",
+        "Hi, welcome aboard! Excited to have you join us",
+        "Hi there! Nice to meet you I'm here for any assistance you need"
+        ],
+      
+      "responses":[
+        "Hey yo, do you need help ?",
+        "Welcome! How can I assist you on your first day?",
+        "Hello! let's start the chat, how can I help you today?",
+        "Welcome my friend, How are you?",
+        "Hello my friend, How are you ?",
+        "Ha, Glad you showed up. How are you ?",
+        "Hi. Welcome to the class. How may I help you ?",
+        "Hi. I'm here, welcome you to the class. How can I assist you today ?",
+        "Hello my friend, How are you?",
+        "Hi hi, my friend.a How are you today ?",
+        "Hello my friend. Is good for you today ?"
+      ]
+    },
+    {
+      "tag":"goodbye",
+      "patterns":[
+        "yes",
+        "yes good",
+        "yes help",
+        "yes i need help",
+        "yes i want help",
+        "Of course, I want help.",
+        "Yeah, am fine",
+        "Things are Great",
+        "I am Great",
+        "Everything's going on well",
+        "Everything's great",
+        "Doing good. thanks",
+        "I ma doing good"
+        ],
+
+      "responses":[
+        "Awesome! Let's dive into your emotions. How was your day?",
+        "Cool! We're here to chat about your feelings. How did your day go?",
+        "Nice! How are you feeling today? Tell me about your day.",
+        "Alright! Let's discuss your emotions. How did your day unfold?",
+        "Fantastic! We're here to explore your feelings. How was your day?",
+        "Super! What's on your mind? How was your day?",
+        "Excellent! Let's talk feelings. How did things go for you today?",
+        "Great! We're here to discuss your emotions. How did your day treat you?",
+        "Wonderful! Share your feelings with me. How was your day?",
+        "Perfect! We're here to connect with your emotions. How did today go for you?",
+        "Greate. We're here to talk about your feelings. How was your day?",
+        "It's great to see you. What would you like to talk about today?"
+      ]
+    },
+    {
+      "tag":"tag1",
+      "patterns":[
+        
+        "Great! But my sandwich got squished in my backpack.",
+        "Fun! I saw a butterfly on the way home from school.",
+        "Okay, I guess. I couldn't find my favorite toy this morning.",
+        "Awesome! I read a funny book in the library.",
+        "Not so good. I fell down during maths period",
+        "Amazing! Mom made cookies after school.",
+        "Awesome! I learned a new game during after-school club.",
+        "The math was too hard, and friends laughed at me",
+        "I don't like math. It's hard",
+        "Well, school has been kind a tough lately. I don't really like math, and I feel like I'm not good at it."
+        ],
+
+      "responses":[
+        "Math is tricky sometimes, How did it make you feel?",
+        "Did the tough math make you feel a certain way?",
+        "How did you feel when math got difficult?",
+        "Feeling okay about the challenging math?",
+        "Did the math difficulties affect your mood?",
+        "What emotions popped up during tough math?",
+        "How did your mood change with the hard math?",
+        "Did tricky math bring up like this feelings?",
+        "Feeling anything specific about the tough math?",
+        "What emotions did the difficult math stir up?",
+        "Math can be tough. How did that make you feel?",
+        "Math can be tricky, but we can practice together. What part do you find hard?",
+        "It sounds like math isn't your favorite subject. What do you like to do for fun?",
+        "Math can be challenging for many people. It's okay to feel that way. What specifically about math is bothering you?"
+      ]
+    },
+    {
+      "tag":"tag2",
+      "patterns":[
+        "Like my brain has too many knots.",
+        "Makes me want to hide under my desk.",
+        "Makes me wish math was a superhero and could help me.",
+        "I get this tummy ache, like butterflies are lost in there.",
+        "It's like my brain says, 'I need a break!'",
+        "I feel like I'm stuck in a math maze.",
+        "My brain does a little 'uh-oh' dance.",
+        "It's like numbers are playing hide-and-seek with me.",
+        "Multiplication, especially big numbers",
+        "number counting",
+        "addition",
+        "substraction"
+        ],
+
+      "responses":[
+        "Ok.Big numbers can be intimidating. Let's break it down. What's 7 times 8?",
+        "Ok.Big numbers can be intimidating. Let's break it down. What's 5 times 3?"
+        
+      ]
+    },
+    {
+      "tag":"tag3",
+      "patterns":[
+        "I've been having trouble with my friends. They don't want to play the games I like, and I feel left out."
+        ],
+
+      "responses":[
+        " I'm sorry to hear that. It can be tough when friends have different interests. How does that make you feel?"
+      ]
+    },
+    {
+      "tag":"fear_of_failure",
+      "patterns":[
+        "I'm scared of failing.",
+        "I worry about not being good enough.",
+        "I'm afraid of disappointing others.",
+        "I feel anxious about making mistakes.",
+        "I avoid trying new things because I fear failure.",
+        "I feel overwhelmed by the pressure to succeed.",
+        "I fear that my efforts won't pay off.",
+        "I struggle with perfectionism.",
+        "I worry about the consequences of failing.",
+        "I feel like a failure compared to others."
+        ],
+
+      "responses":[
+        "It's normal to feel this way, but remember that failure is a part of learning and growth. What's one small step you can take towards overcoming this fear?",
+        "You're not alone in experiencing fear of failure. Let's work together to challenge these thoughts and build resilience.",
+        "Failure is not a reflection of your worth as a person. Let's explore ways to reframe your mindset about failure.",
+        "It's okay to make mistakes. They're opportunities for growth. What's one thing you've learned from a past failure?",
+        "Avoiding failure won't make it go away. Let's work on facing your fears and developing a healthier relationship with failure.",
+        "Perfection is unrealistic and unattainable. Let's focus on progress over perfection and celebrate your efforts.",
+        "Your worth is not defined by your achievements or failures. Let's work on cultivating self-compassion and acceptance.",
+        "Taking risks is a part of life. Let's explore ways to step out of your comfort zone and embrace new challenges.",
+        "Failure is not the end of the road, but rather a stepping stone to success. Let's work on resilience and bouncing back from setbacks.",
+        "Comparing yourself to others only breeds insecurity. Let's focus on your own journey and progress."
+      ]
+    },
+    {
+      "tag":"fear_of_failure_two",
+      "patterns":[
+        "I'm anxious about failing.",
+        "I fear not being capable enough.",
+        "I worry about letting others down.",
+        "I feel stressed about making errors.",
+        "I avoid new challenges because of my fear of failure.",
+        "I'm overwhelmed by the expectations to excel.",
+        "I'm concerned that my hard work won't yield results.",
+        "I grapple with the need for perfection.",
+        "I'm troubled by the potential outcomes of failure.",
+        "I feel inadequate compared to others' successes."
+        ],
+
+      "responses":[
+        "It's common to feel uncertain, but remember, growth often comes from facing challenges. What's one small step you can take to move forward?",
+        "Many people share your fear of uncertainty. Let's collaborate to challenge these feelings and strengthen your resilience.",
+        "Remember, setbacks don't define you. Let's explore ways to shift your perspective on failure.",
+        "Mistakes are a natural part of the learning process. What's one valuable lesson you've gained from a past setback?",
+        "Avoiding challenges won't make them disappear. Let's focus on confronting your fears and fostering a healthier attitude towards failure.",
+        "Striving for perfection is unrealistic. Let's prioritize progress and acknowledge your efforts along the way.",
+        "Your value isn't determined by success or failure. Let's focus on developing self-compassion and embracing your worth.",
+        "Taking risks is essential for personal growth. Let's brainstorm ways to step outside your comfort zone and embrace new opportunities.",
+        "Failure is just a detour on the road to success. Let's cultivate resilience and learn from life's setbacks.",
+        "Comparing yourself to others only hinders your progress. Let's concentrate on your unique journey and celebrate your achievements."
+      ]
+    },
+    {
+      "tag":"failures",
+      "patterns":[
+        "Am I the only one who feels overwhelmed by the workload at school?", 
+        "How do you handle the stress of the impending exams?", 
+        "Are you finding it challenging to keep up with your studies?", 
+        "Does the pressure to achieve high grades weigh heavily on your mind?", 
+        "How concerned are you about disappointing your parents regarding your academic performance?", 
+        "Do you worry about the possibility of not gaining admission to a reputable college?", 
+        "Are you struggling to stay afloat amidst the pile of assignments?", 
+        "Are your future and career prospects sources of stress for you?",
+        "Do you constantly feel like you're not meeting academic standards?"
+        ],
+
+      "responses":[
+        "I handle the stress of impending exams by creating a study schedule", 
+        "practicing relaxation techniques and seeking support from friends or family",
+        "Yes", "it's been challenging to keep up with my studies lately especially with the increasing workload",
+        "The pressure to achieve high grades does weigh heavily on my mind and it can be quite stressful",
+        "I am quite concerned about disappointing my parents regarding my academic performance Their expectations add to the pressure I feel",
+        "Yes", "the possibility of not gaining admission to a reputable college does concern me It's something I think about often",
+        "Absolutely", "I feel like I'm struggling to stay afloat amidst the pile of assignments It can be overwhelming at times",
+        "Yes", "my future and career prospects do cause me stress", 
+        "I worry about making the right choices and living up to expectations"
+      ]
+    },
+    {
+      "tag":"educational_failures",
+      "patterns":[
+        "How do you cope with the stress leading up to exams?", 
+        "Are you finding it hard to keep up with your studies lately?", 
+        "How much pressure do you feel to achieve high grades?", 
+        "Are you anxious about disappointing your parents regarding your grades?", 
+        "Are you concerned about not getting accepted into a good college?", 
+        "Do you stress about your future and career prospects?", 
+        "Do you constantly worry about not meeting academic standards?", 
+        "How anxious are you about falling short of academic expectations?", 
+        "Does the workload at school overwhelm you?", 
+        "How do you handle exam-related stress?", 
+        "Are you struggling to maintain your grades?", 
+        "How much pressure do you feel to perform well academically?", 
+        "Are you afraid of letting your parents down academically?", 
+        "Are you worried about not getting into the college of your choice?", 
+        "Do you feel buried under a mountain of assignments?"
+        ],
+
+      "responses":[
+        "Yes, I'm afraid I won't get into a good college, and it's something I worry about often.",
+        "Yes, I feel like I'm drowning in assignments most of the time. It's hard to keep up with everything.",
+        "Yes, I'm stressed about my future career, especially with the uncertainty of the job market and economic factors.",
+        "Yes, I feel like I'm constantly underperforming in my studies, which adds to my stress and anxiety.",
+        "Yes, the workload at school is too much for me to handle, and it often leaves me feeling overwhelmed.",
+        "I cope with the stress of upcoming exams by creating a study schedule, practicing relaxation techniques and seeking support from teachers or tutors.",
+        "Yes, I'm struggling to keep up with my coursework, especially with the increasing demands of school.",
+        "Yes, the idea of not getting into a good college scares me. It's something I worry about often.",
+        "Yes, I feel overwhelmed by the number of assignments I have to do, and it's hard to stay on top of everything.",
+        "Yes, I'm stressed about my future career prospects, especially with the uncertainty of the job market and economic factors.",
+        "Yes, I feel like I'm not meeting academic expectations, which adds to my stress and anxiety.",
+        "Yes, I'm anxious about meeting academic standards, and it's something that weighs on me constantly."
+      ]
+    },
+    {
+      "tag":"mental_failures_with_education",
+      "patterns":[
+        "Is the fear of falling short of academic expectations causing you anxiety?", 
+        "Have you been feeling overwhelmed by the workload at school lately?", 
+        "How do you manage the anxiety surrounding the impending exams?", 
+        "Are you having difficulty keeping up with your studies recently?", 
+        "Do you feel immense pressure to achieve high grades in your classes?", 
+        "Does the prospect of not gaining admission to a reputable college worry you?", 
+        "Are you struggling to manage the pile of assignments you have to complete?", 
+        "Do thoughts about your future and career prospects stress you out?", 
+        "Do you often feel like you're falling short of academic standards?", 
+        "How does the fear of not meeting academic expectations affect you?", 
+        "Is anyone else feeling overwhelmed by the workload at school?"
+        ],
+
+      "responses":[
+        "No, you're not alone in feeling overwhelmed by the school workload. Many students experience this pressure.",
+        "It's a constant battle to meet academic standards, and I often feel like I'm falling short.",
+        "The fear of falling short of academic expectations does cause me anxiety. I want to do well, but sometimes it feels like I'm not meeting the mark.",
+        "Yes, I've been feeling overwhelmed by the workload at school lately. It seems never-ending.",
+        "I manage the anxiety surrounding the impending exams by breaking down my study materials into manageable chunks and seeking support from teachers or tutors.",
+        "Keeping up with my studies has been difficult recently, especially with competing priorities and distractions.",
+        "Yes, I feel immense pressure to achieve high grades in my classes. Sometimes it feels like the expectation is too much.",
+        "The prospect of not gaining admission to a reputable college does worry me. It's something I hope to avoid."
+
+      ]
+    },
+    {
+      "tag":"academic_anxieties",
+      "patterns":[
+        "Are you stressed about your future career path?", 
+        "Do you feel like you're constantly underperforming in your studies?", 
+        "Is the workload at school too much for you to handle?", 
+        "How do you deal with the stress of upcoming exams?", 
+        "Are you having trouble keeping up with your coursework?", 
+        "Does the idea of not getting into a good college scare you?", 
+        "Are you overwhelmed by the number of assignments you have to do?", 
+        "Are you stressed about your future career prospects?", 
+        "Do you feel like you're not meeting academic expectations?", 
+        "How anxious are you about meeting academic standards?", 
+        "Are you feeling overwhelmed by the workload at school right now?"
+        ],
+
+      "responses":[
+        "Yes, I feel overwhelmed by the number of assignments I have to do, and it's hard to stay on top of everything.",
+        "Yes, I'm stressed about my future career prospects, especially with the uncertainty of the job market and economic factors.",
+        "Yes, I feel like I'm not meeting academic expectations, which adds to my stress and anxiety.",
+        "Yes, I'm anxious about meeting academic standards, and it's something that weighs on me constantly.",
+        "Yes, I'm feeling overwhelmed by the workload at school right now. It's hard to keep up with everything.",
+        "I manage my stress leading up to exams by practicing relaxation techniques, seeking support from friends or family and breaking down my study materials into manageable chunks.",
+        "Yes, I'm struggling to maintain my grades, especially with the increasing demands of school.",
+        "I feel a significant amount of pressure to succeed academically, and it's something that weighs on me constantly."
+
+      ]
+    },
+    {
+      "tag":"academic_challenges",
+      "patterns":[
+        "Do you often find yourself hesitant to take risks?", 
+        "Are you frequently concerned about meeting others' expectations?", 
+        "Do you feel tense when faced with challenging tasks?", 
+        "Have you ever avoided opportunities due to fear of failure?", 
+        "Do you experience self-doubt when attempting something new?", 
+        "Are you uncomfortable with the idea of making mistakes?", 
+        "Do you feel stressed about achieving certain standards?", 
+        "Have you ever felt overwhelmed by the pressure to succeed?", 
+        "Do you constantly seek validation from others?", 
+        "Are you critical of yourself when you don't meet your goals?"
+        ],
+
+      "responses":[
+        "Rarely, I confront fears to achieve aspirations", 
+        "Occasionally, I define worth independently and confidently", 
+        "Rarely, I appreciate worth beyond comparisons", 
+        "Rarely, I affirm worth independently and confidently", 
+        "Occasionally, I acknowledge deservingness of positive outcomes", 
+        "Rarely, I pursue goals with determination and belief", 
+        "Rarely, I pursue potential with confidence", 
+        "Rarely, I attribute accomplishments to dedication and effort", 
+        "Occasionally, I recognize unique strengths confidently", 
+        "Rarely, I define success based on personal growth", 
+        "Occasionally, I pursue potential with confidence", 
+        "Rarely, I pursue aspirations with determination", 
+        "Rarely, I appreciate personal progress confidently", 
+        "Rarely, I pursue potential with determination"
+      ]
+    },
+    {
+      "tag":"learning_difficulties",
+      "patterns":[
+        "Do you find it hard to accept imperfections in your work?", 
+        "Are you afraid of disappointing yourself?", 
+        "Do you often compare your success to that of others?", 
+        "Are you fearful of falling short of your own expectations?", 
+        "Do you feel like you're not good enough?", 
+        "Have you ever doubted your abilities?", 
+        "Do you feel like you have to prove yourself constantly?", 
+        "Are you afraid of being judged by others?", 
+        "Do you worry about the consequences of making mistakes?", 
+        "Have you ever felt paralyzed by the fear of failure?", 
+        "Do you often feel like you're not living up to your potential?", 
+        "Are you hesitant to try new things because you fear criticism?"
+        ],
+
+      "responses":[
+        "Rarely, I recognize unique capabilities confidently",
+        "Occasionally, yet I pursue potential with confidence",
+        "Rarely, I confront fears to achieve goals",
+        "Occasionally, I define purpose through personal growth",
+        "Rarely, I overcome cycles of self-doubt with resilience",
+        "Occasionally, I appreciate personal progress confidently",
+        "Rarely, I pursue dreams with confidence and determination",
+        "Occasionally, I affirm worth beyond achievements",
+        "Rarely, I acknowledge deservingness of positive outcomes",
+        "Occasionally, I pursue potential with determination",
+        "Occasionally, I embrace authenticity despite uncertainty",
+        "Rarely, I define worth beyond external comparisons",
+        "Occasionally, I affirm worth independently and confidently",
+        "Rarely, I define worth independently of outcomes",
+        "Occasionally, I affirm worth beyond outcomes",
+        "Rarely, I recognize unique capabilities confidently"
+      ]
+    },
+    {
+      "tag":"academic_stress",
+      "patterns":[
+        "Do you feel like you're constantly under scrutiny?", 
+        "Have you ever felt like giving up because of fear of failure?", 
+        "Are you afraid of letting people down?", 
+        "Do you feel like you have to be perfect to be accepted?", 
+        "Have you ever felt like you're not capable of success?", 
+        "Do you avoid challenges because you're afraid of failing?", 
+        "Are you worried about what others will think if you fail?", 
+        "Do you feel like you have to be flawless in everything you do?", 
+        "Have you ever felt like you're not worthy of success?", 
+        "Do you find it hard to bounce back from setbacks?", 
+        "Are you afraid of being seen as incompetent?", 
+        "Do you feel like you're not deserving of praise?"
+        ],
+      
+      "responses":[
+        "Occasionally, yet I seek help when necessary",
+        "Rarely  I make decisions with confidence and clarity",
+        "Occasionally, I define success on personal terms",
+        "Sometimes, yet I affirm achievements with confidence",
+        "Occasionally, I appreciate accomplishments with humility",
+        "Rarely, I acknowledge competence with confidence",
+        "Occasionally, yet I pursue growth with determination",
+        "Rarely, I embrace authenticity and personal worth",
+        "Occasionally, yet I affirm worth independently",
+        "Rarely, I define self-worth beyond achievements",
+        "Occasionally I validate personal worth internally",
+        "Rarely, I affirm accomplishments with humility",
+        "Occasionally, I embrace imperfection with self-assurance."
+      ]
+    },
+    {
+      "tag":"test_anxiety",
+      "patterns":[
+        "Have you ever felt like you're not smart enough?", 
+        "Do you feel like you have to prove yourself to others?", 
+        "Are you afraid of being seen as a failure?", 
+        "Do you feel like you're not good at anything?", 
+        "Have you ever felt like you're not talented enough?", 
+        "Do you worry about what others will think if you don't succeed?", 
+        "Are you afraid of being seen as inadequate?", 
+        "Do you feel like you're not capable of achieving your goals?", 
+        "Have you ever felt like you're not capable of handling challenges?", 
+        "Do you worry about what others will say if you fail?", 
+        "Are you afraid of not measuring up to others' standards?", 
+        "Do you feel like you're not enough?"
+        ],
+      
+      "responses":[
+        "Occasionally, yet I pursue potential with determination.",
+        "Sometimes, but I recognize unique strengths confidently.",
+        "Rarely, I redefine expectations to encourage growth.",
+        "Occasionally, I embrace challenges to foster growth.",
+        "Sometimes, yet I focus on personal improvement.",
+        "Occasionally, I embrace mistakes as learning opportunities.",
+        "Rarely, I pursue new experiences despite uncertainty.",
+        "Occasionally, I view pressure as motivation for success.",
+        "Sometimes, but I believe in the payoff of effort.",
+        "Occasionally, yet I strive for excellence within reason.",
+        "Sometimes, but I face challenges with determination.",
+        "Occasionally, I confront challenges with self-assurance.",
+        "Sometimes, but I believe in my potential."
+      ]
+    },
+    {
+      "tag":"academic_obstacles",
+      "patterns":[
+        "Have you ever felt like you're not worthy of recognition?", 
+        "Do you worry about not being able to meet your own expectations?", 
+        "Are you afraid of not being able to fulfill your potential?", 
+        "Do you feel like you're not talented compared to others?", 
+        "Do you ever feel like you're not living up to your own expectations?", 
+        "Have you ever avoided taking on a new challenge because you were afraid of failing?", 
+        "Do you constantly worry about what others think of your performance?", 
+        "Have you ever felt anxious about making a mistake?", 
+        "Do you find it difficult to try new things because you're afraid you won't succeed?", 
+        "Have you ever felt overwhelmed by the pressure to succeed?", 
+        "Do you ever doubt whether your efforts will pay off in the end?", 
+        "Are you a perfectionist who struggles to accept anything less than perfect?", 
+        "Do you worry about the potential consequences of failing at something important?", 
+        "Have you ever felt like a failure when comparing yourself to others?"
+        ],
+      
+      "responses":[
+        "Sometimes, yet I focus on personal growth.",
+        "Occasionally, but I redefine failure as learning opportunities.",
+        "Rarely, I recognize and cultivate personal strengths.",
+        "Sometimes, yet I embrace growth and improvement.",
+        "Occasionally, yet I prioritize personal fulfillment over judgment.",
+        "Sometimes, but I redefine inadequacy as growth potential.",
+        "Occasionally, I pursue goals with determination and belief.",
+        "Sometimes, yet I confront challenges with resilience.",
+        "Occasionally, yet I prioritize personal growth over opinions.",
+        "Sometimes, but I focus on personal progress.",
+        "Rarely, I affirm my worth through personal growth.",
+        "Occasionally, I acknowledge achievements with humility.",
+        "Rarely, I set realistic expectations for personal growth."
+
+      ]
+    },
+    {
+      "tag":"educational_setbacks",
+      "patterns":[
+        "Do you often second-guess yourself when facing challenges?",
+        "Have you ever felt like you're not good enough, no matter how hard you try?",
+        "Do you ever avoid asking for help because you fear it makes you look weak?",
+        "Have you ever felt paralyzed by the fear of making a wrong decision?",
+        "Do you constantly worry about measuring up to other people's standards?",
+        "Have you ever experienced imposter syndrome, feeling like you don't deserve your achievements?",
+        "Do you find it difficult to take pride in your accomplishments because you always see room for improvement?",
+        "Have you ever felt like you're just pretending to be competent?",
+        "Do you often feel like you're falling short of your own expectations?",
+        "Have you ever felt like a fraud, fearing that others will discover you're not as capable as you seem?",
+        "Do you ever feel like you're not worthy of success or happiness?",
+        "Have you ever felt like your self-worth is tied to your achievements?",
+        "Do you constantly seek validation from others to reassure yourself of your worth?",
+        "Have you ever felt like you're not deserving of praise or recognition?",
+        "Do you ever feel like you have to be perfect to be accepted or loved?"
+        ],
+      
+      "responses":[
+        "Sometimes, but I focus on my journey.",
+        "Rarely, I persevere despite fear of failure.",
+        "Occasionally, yet I prioritize personal integrity foremost.",
+        "Sometimes, but I value authenticity over perfection.",
+        "Occasionally, but I believe in my potential.",
+        "Sometimes, yet I confront challenges with determination.",
+        "Occasionally, yet I focus on personal growth.",
+        "Sometimes, but I prioritize progress over perfection.",
+        "Rarely, I believe in my ability to succeed.",
+        "Occasionally, I rebound with resilience after setbacks.",
+        "Sometimes, yet I prove competence through actions.",
+        "Occasionally, I appreciate recognition for achievements.",
+        "Rarely, I recognize my unique strengths confidently."
+      ]
+    },
+    {
+      "tag":"academic_pressures",
+      "patterns":[
+        "Have you ever felt like you're not as talented or capable as other people?",
+        "Do you often feel like you're not living up to your full potential?",
+        "Have you ever felt like your fear of failure holds you back from pursuing your goals?",
+        "Do you ever feel like you're just going through the motions, without any real purpose or direction?",
+        "Have you ever felt like you're stuck in a cycle of self-doubt and insecurity?",
+        "Do you constantly compare yourself to others, feeling like you always come up short?",
+        "Have you ever felt like you're not good enough to achieve your dreams?",
+        "Do you ever feel like you're not worthy of success, happiness, or love?",
+        "Have you ever felt like you don't deserve the good things that happen to you?",
+        "Do you often feel like you're not living up to your own potential?",
+        "Have you ever felt like you're not capable of achieving the success you desire?",
+        "Do you ever feel like you're just faking it, pretending to be someone you're not?",
+        "Have you ever felt like your accomplishments are just a result of luck or circumstance?",
+        "Do you often feel like you're not as smart or talented as other people?",
+        "Have you ever felt like you're not good enough, no matter how hard you try?"
+        ],
+      
+      "responses":[
+        "Rarely, I thrive under pressure and adapt.",
+        "Occasionally, but I cultivate self-assurance internally.",
+        "Sometimes, but I learn from setbacks constructively.",
+        "At times, yet I value growth over perfection.",
+        "Occasionally, but I strive for personal satisfaction.",
+        "Sometimes, but I celebrate individual achievements.",
+        "Rarely, I channel fear into motivation for success.",
+        "Occasionally, but I recognize my evolving potential.",
+        "Sometimes, yet I trust in my capabilities.",
+        "Occasionally, I demonstrate my worth through actions.",
+        "At times, but I prioritize self-belief over judgment.",
+        "Sometimes, yet I embrace learning from mistakes.",
+        "Rarely, I confront fear to pursue aspirations.",
+        "Occasionally, but I continually strive for improvement.",
+        "At times, yet I welcome constructive feedback."
+      ]
+    },
+    {
+      "tag":"study_struggles",
+      "patterns":[
+        "Have you ever felt like you're not deserving of happiness or success?",
+        "Do you often feel like you're not living up to society's expectations?",
+        "Have you ever felt like you're not capable of achieving your goals?",
+        "Do you ever feel like you're not worthy of the opportunities that come your way?",
+        "Have you ever felt like you're not good enough, no matter what you do?",
+        "Do you often feel like you're not living up to your own standards?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you ever feel like you're not deserving of the praise or recognition you receive?",
+        "Have you ever felt like you're not good enough, compared to others?",
+        "Do you often feel like you're not living up to your full potential?",
+        "Have you ever felt like you're not worthy of success or happiness?",
+        "Do you ever feel like you're not deserving of the good things that happen to you?",
+        "Do you often feel like you're not good enough, compared to those around you?",
+        "Have you ever felt like you're not living up to your own expectations?",
+        "Do you ever feel like you're not worthy of love or affection?"
+        ],
+      
+      "responses":[
+        "Sometimes, but I embrace calculated risks.",
+        "Occasionally, but I prioritize personal growth first.",
+        "At times, but I push through challenges.",
+        "Rarely, I confront fears to seize opportunities.",
+        "Occasionally, yet I persist in learning endeavors.",
+        "Sometimes, but I view mistakes as lessons.",
+        "At times, but I focus on progress."
+      ]
+    },
+    {
+      "tag":"academic_hurdles",
+      "patterns":[
+        "Do you ever feel like you're not deserving of success or happiness?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you often feel like you're not good enough, compared to those around you?",
+        "Have you ever felt like you're not living up to your own expectations?",
+        "Do you ever feel like you're not worthy of the praise or recognition you receive?",
+        "Have you ever felt like you're not deserving of the opportunities that come your way?",
+        "Do you often feel like you're not capable of reaching your full potential?",
+        "Have you ever felt like you're not good enough, no matter how hard you try?",
+        "Do you ever feel like you're not deserving of happiness or success?",
+        "Have you ever felt like you're not living up to your own standards?",
+        "Do you often feel like you're not worthy of the good things in your life?",
+        "Do you ever feel like you're not good enough, compared to your peers?",
+        "Have you ever felt like you're not living up to your full potential?",
+        "Do you often feel like you're not worthy of love or affection?"
+        ],
+      
+      "responses":[
+        "Occasionally, but I recognize my evolving potential.",
+        "Sometimes, yet I trust in my capabilities.",
+        "Occasionally, I demonstrate my worth through actions.",
+        "At times, but I prioritize self-belief over judgment.",
+        "Occasionally, but I believe in my potential.",
+        "Sometimes, yet I confront challenges with determination.",
+        "Occasionally, yet I focus on personal growth.",
+        "Sometimes, but I prioritize progress over perfection.",
+        "Sometimes, yet I confront challenges with resilience.",
+        "Occasionally, yet I prioritize personal growth over opinions.",
+        "Sometimes, but I focus on personal progress."
+      ]
+    },
+    {
+      "tag":"academic_hurdles",
+      "patterns":[
+        "Have you ever felt like you're not deserving of success or happiness?",
+        "Do you ever feel like you're not capable of reaching your goals?",
+        "Have you ever felt like you're not good enough, compared to others in your field?",
+        "Do you often feel like you're not living up to your own expectations?",
+        "Have you ever felt like you're not worthy of the praise or recognition you receive?",
+        "Do you ever feel like you're not deserving of the opportunities that come your way?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you often feel like you're not good enough, compared to those around you?",
+        "Have you ever felt like you're not living up to your own standards?",
+        "Do you ever feel like you're not worthy of the good things in your life?",
+        "Have you ever felt like you're not capable of reaching your full potential?",
+        "Do you often feel like you're not deserving of happiness or success?",
+        "Have you ever felt like you're not good enough, no matter how hard you try?",
+        "Do you ever feel like you're not living up to your own expectations?",
+        "Have you ever felt like you're not worthy of love or affection?",
+        "Do you often feel like you're not capable of achieving your dreams?"
+        ],
+      
+      "responses":[
+        "Sometimes, yet I embrace growth and improvement.",
+        "Sometimes, but I redefine inadequacy as growth potential.",
+        "Sometimes, but I focus on personal progress.",
+        "Rarely, I affirm my worth through personal growth.",
+        "Occasionally, I acknowledge achievements with humility.",
+        "Occasionally, I embrace mistakes as learning opportunities.",
+        "Rarely, I pursue new experiences despite uncertainty.",
+        "Occasionally, I view pressure as motivation for success.",
+        "Rarely, I acknowledge competence with confidence",
+        "Occasionally, yet I pursue growth with determination",
+        "Rarely, I embrace authenticity and personal worth"
+      ]
+    },
+    {
+      "tag":"learning_disorders",
+      "patterns":[
+        "Have you ever felt like you're not deserving of success or happiness?",
+        "Do you ever feel like you're not good enough, compared to your peers?",
+        "Have you ever felt like you're not living up to your full potential?",
+        "Do you often feel like you're not worthy of the praise or recognition you receive?",
+        "Have you ever felt like you're not deserving of the opportunities that come your way?",
+        "Do you ever feel like you're not good enough, compared to others in your field?",
+        "Have you ever felt like you're not living up to your own standards?",
+        "Do you often feel like you're not worthy of the good things in your life?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you ever feel like you're not good enough, compared to those around you?",
+        "Have you ever felt like you're not living up to your own expectations?",
+        "Do you often feel like you're not worthy of happiness or success?",
+        "Have you ever felt like you're not capable of reaching your full potential?",
+        "Do you ever feel like you're not deserving of love or affection?"
+        ],
+      
+      "responses":[
+        "Occasionally, I affirm worth beyond achievements",
+        "Rarely, I acknowledge deservingness of positive outcomes",
+        "Occasionally, I pursue potential with determination",
+        "Rarely, I pursue goals with determination and belief", 
+        "Rarely, I pursue potential with confidence", 
+        "Rarely, I attribute accomplishments to dedication and effort", 
+        "Occasionally, I recognize unique strengths confidently",
+        "I avoid new challenges because of my fear of failure.",
+        "I'm overwhelmed by the expectations to excel.",
+        "I'm concerned that my hard work won't yield results.",
+        "I grapple with the need for perfection."
+      ]
+    },
+    {
+      "tag":"academic_barriers",
+      "patterns":[
+        "Have you ever felt like you're not good enough, no matter how hard you try?",
+        "Do you often feel like you're not living up to your own standards?",
+        "Have you ever felt like you're not worthy of the praise or recognition you receive?",
+        "Do you ever feel like you're not deserving of the opportunities that come your way?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you often feel like you're not good enough, compared to your peers?",
+        "Have you ever felt like you're not living up to your full potential?",
+        "Do you ever feel like you're not worthy of success or happiness?",
+        "Have you ever felt like you're not good enough, compared to others in your field?",
+        "Do you often feel like you're not living up to your own expectations?",
+        "Have you ever felt like you're not deserving of the good things in your life?",
+        "Do you ever feel like you're not capable of reaching your goals?",
+        "Have you ever felt like you're not good enough, compared to those around you?",
+        "Do you often feel like you're not worthy of love or affection?"
+
+        ],
+      
+      "responses":[
+        "I avoid trying new things because I fear failure.",
+        "I feel overwhelmed by the pressure to succeed.",
+        "I fear that my efforts won't pay off.",
+        "I struggle with perfectionism.",
+        "I'm anxious about failing.",
+        "I fear not being capable enough.",
+        "Rarely, I confront fears to achieve aspirations", 
+        "Occasionally, I define worth independently and confidently", 
+        "Rarely, I recognize unique capabilities confidently",
+        "Occasionally, yet I pursue potential with confidence",
+        "Occasionally, yet I seek help when necessary",
+        "Rarely  I make decisions with confidence and clarity",
+        "Occasionally, yet I pursue potential with determination.",
+        "Sometimes, but I recognize unique strengths confidently."
+      ]
+    },
+    {
+      "tag":"educational_challenges",
+      "patterns":[
+        "Do you often feel like you're not good enough, compared to your peers?",
+        "Have you ever felt like you're not living up to your full potential?",
+        "Do you ever feel like you're not worthy of the praise or recognition you receive?",
+        "Have you ever felt like you're not deserving of the opportunities that come your way?",
+        "Do you often feel like you're not good enough, no matter how hard you try?",
+        "Have you ever felt like you're not living up to your own standards?",
+        "Do you ever feel like you're not worthy of the good things in your life?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you often feel like you're not good enough, compared to others in your field?",
+        "Have you ever felt like you're not living up to your own expectations?",
+        "Do you ever feel like you're not deserving of happiness or success?",
+        "Have you ever felt like you're not capable of reaching your full potential?"
+        ],
+      
+      "responses":[
+        "Sometimes, yet I focus on personal growth.",
+        "Occasionally, but I redefine failure as learning opportunities.",
+        "Sometimes, but I focus on my journey.",
+        "Rarely, I persevere despite fear of failure.",
+        "Rarely, I thrive under pressure and adapt.",
+        "Occasionally, but I cultivate self-assurance internally.",
+        "Sometimes, but I embrace calculated risks.",
+        "Occasionally, but I prioritize personal growth first.",
+        "Occasionally, but I recognize my evolving potential.",
+        "Sometimes, yet I trust in my capabilities."
+      ]
+    },
+    {
+      "tag":"academic_difficulties",
+      "patterns":[
+        "Have you ever felt like you're not good enough, compared to those around you?",
+        "Do you ever feel like you're not living up to your own standards?",
+        "Have you ever felt like you're not deserving of the praise or recognition you receive?",
+        "Do you often feel like you're not capable of achieving your dreams?",
+        "Have you ever felt like you're not good enough, no matter how hard you try?",
+        "Do you ever feel like you're not living up to your full potential?",
+        "Have you ever felt like you're not worthy of the opportunities that come your way?",
+        "Do you often feel like you're not good enough, compared to your peers?",
+        "Have you ever felt like you're not living up to your own expectations?",
+        "Do you ever feel like you're not deserving of success or happiness?",
+        "Have you ever felt like you're not capable of reaching your goals?",
+        "Do you often feel like you're not worthy of love or affection?",
+        "Have you ever felt like you're not good enough, compared to others in your field?"
+        ],
+      
+      "responses":[
+        "Sometimes, yet I embrace growth and improvement.",
+        "Sometimes, but I redefine inadequacy as growth potential.",
+        "Occasionally, I affirm worth beyond achievements",
+        "Rarely, I acknowledge deservingness of positive outcomes",
+        "I avoid trying new things because I fear failure.",
+        "I feel overwhelmed by the pressure to succeed.",
+        "Sometimes, yet I focus on personal growth.",
+        "Occasionally, but I redefine failure as learning opportunities.",
+        "Occasionally, yet I pursue potential with determination.",
+        "Sometimes, but I recognize unique strengths confidently.",
+        "I'm concerned that my hard work won't yield results.",
+        "I grapple with the need for perfection."
+        
+      ]
+    },
+    {
+      "tag":"study_obstacles",
+      "patterns":[
+        "Do you often feel like you're not worthy of the good things in your life?",
+        "Have you ever felt like you're not capable of reaching your full potential?",
+        "Do you ever feel like you're not good enough, compared to others in your field?",
+        "Have you ever felt like you're not living up to your full potential?",
+        "Do you often feel like you're not deserving of success or happiness?",
+        "Have you ever felt like you're not good enough, compared to those around you?",
+        "Do you ever feel like you're not living up to your own standards?",
+        "Have you ever felt like you're not worthy of the praise or recognition you receive?",
+        "Do you often feel like you're not deserving of the opportunities that come your way?",
+        "Do you ever feel like you're not good enough, no matter how hard you try?",
+        "Have you ever felt like you're not living up to your own expectations?",
+        "Do you often feel like you're not worthy of happiness or success?",
+        "Have you ever felt like you're not capable of reaching your goals?",
+        "Do you ever feel like you're not deserving of love or affection?"        
+        ],
+      
+      "responses":[
+        "Occasionally, yet I pursue growth with determination",
+        "Rarely, I embrace authenticity and personal worth",
+        "Occasionally, yet I prioritize personal growth over opinions.",
+        "Sometimes, but I focus on personal progress.",
+        "Sometimes, but I view mistakes as lessons.",
+        "At times, but I focus on progress.",
+        "Occasionally, but I continually strive for improvement.",
+        "At times, yet I welcome constructive feedback.",
+        "Occasionally, I appreciate recognition for achievements.",
+        "Rarely, I recognize my unique strengths confidently.",
+        "Occasionally, I acknowledge achievements with humility.",
+        "Rarely, I set realistic expectations for personal growth.",
+        "Occasionally, I confront challenges with self-assurance.",
+        "Sometimes, but I believe in my potential."
+      ]
+    },
+    {
+      "tag":"academic_concerns",
+      "patterns":[
+        "Have you ever felt like you're not good enough, compared to others in your field?",
+        "Do you often feel like you're not living up to your full potential?",
+        "Have you ever felt like you're not worthy of the good things in your life?",
+        "Do you ever feel like you're not capable of achieving your dreams?",
+        "Have you ever felt like you're not good enough, compared to your peers?",
+        "Do you often feel like you're not living up to your own standards?",
+        "Have you ever felt like you're not deserving of the praise or recognition you receive?",
+        "Do you ever feel like you're not worthy of the opportunities that come your way?",
+        "Have you ever felt like you're not good enough, no matter how hard you try?",
+        "Do you often feel like you're not living up to your own expectations?",
+        "Have you ever felt like you're not deserving of happiness or success?",
+        "Have you ever felt like you're not worthy of love or affection?",
+        "Do you ever feel like you're not deserving of the good things in your life?"
+        ],
+      
+      "responses":[
+        "Occasionally, I acknowledge achievements with humility.",
+        "Rarely, I set realistic expectations for personal growth.",
+        "Occasionally, I appreciate recognition for achievements.",
+        "Rarely, I recognize my unique strengths confidently.",
+        "Occasionally, but I continually strive for improvement.",
+        "At times, yet I welcome constructive feedback.",
+        "Sometimes, but I view mistakes as lessons.",
+        "At times, but I focus on progress.",
+        "Occasionally, yet I prioritize personal growth over opinions.",
+        "Sometimes, but I focus on personal progress.",
+        "Occasionally, yet I pursue growth with determination",
+        "Rarely, I embrace authenticity and personal worth",
+        "I'm concerned that my hard work won't yield results.",
+        "I grapple with the need for perfection."
+      ]
+    },
+    {
+      "tag":"learning_barriers",
+      "patterns":[
+        "Do you often feel like you're not good enough, compared to others in your field?",
+        "Have you ever felt like you're not living up to your own standards?",
+        "Do you ever feel like you're not worthy of the praise or recognition you receive?",
+        "Have you ever felt like you're not deserving of the opportunities that come your way?",
+        "Do you often feel like you're not good enough, no matter how hard you try?",
+        "Do you ever feel like you're not worthy of happiness or success?",
+        "Have you ever felt like you're not capable of achieving your dreams?",
+        "Do you often feel like you're not worthy of love or affection?",
+        "Do you ever feel like you're not living up to your full potential?"
+        ],
+      
+      "responses":[
+        "Occasionally, yet I pursue potential with determination.",
+        "Sometimes, but I recognize unique strengths confidently.",
+        "Occasionally, but I recognize my evolving potential.",
+        "Sometimes, yet I trust in my capabilities.",
+        "I'm concerned that my hard work won't yield results.",
+        "I grapple with the need for perfection.",
+        "Occasionally, I confront challenges with self-assurance.",
+        "Sometimes, but I believe in my potential.",
+        "I'm concerned that my hard work won't yield results.",
+        "I grapple with the need for perfection."
+      ]
+    },
+    {
+      "tag":"academic_struggles",
+      "patterns":[
+        "Have you ever felt like you're not deserving of the good things in your life?",
+        "Do you often feel like you're not capable of reaching your goals?",
+        "Do you ever feel like you're not living up to your own expectations?",
+        "Have you ever felt like you're not worthy of happiness or success?",
+        "Do you often feel like you're not capable of achieving your dreams?",
+        "Have you ever felt like you're not deserving of love or affection?",
+        "Do you ever feel like you're not good enough, compared to your peers?",
+        "Do you often feel like you're not worthy of the praise or recognition you receive?",
+        "Do you ever feel like you're not worthy of the good things in your life?"
+        ],
+      
+      "responses":[
+        "Rarely, I recognize my unique strengths confidently.",
+        "Occasionally, I acknowledge achievements with humility.",
+        "Occasionally, but I redefine failure as learning opportunities.",
+        "Occasionally, yet I pursue potential with determination.",
+        "Sometimes, but I embrace calculated risks.",
+        "Occasionally, but I prioritize personal growth first.",
+        "Rarely, I recognize unique capabilities confidently",
+        "Occasionally, yet I pursue potential with confidence",
+        "Occasionally, I recognize unique strengths confidently",
+        "I avoid new challenges because of my fear of failure."
+      ]
+    },
+    {
+      "tag":"study_setbacks",
+      "patterns":[
+        "How much do you worry about disappointing your parents with your grades?",
+        "Are you afraid of not getting into a good college?",
+        "Do you often feel like you're drowning in assignments?",
+        "How stressed are you about your future and career prospects?",
+        "Do you frequently feel like you're underperforming academically?",
+        "Are you anxious about not meeting academic expectations?",
+        "Have you ever felt overwhelmed by the workload from school?",
+        "When was the last time you felt stressed about an upcoming exam?",
+        "Do you find it challenging to keep up with your studies most of the time?",
+        "How much pressure do you feel to excel academically?",
+        "Do you often worry about disappointing your parents with your grades?",
+        "Have you ever feared not being accepted into a good college?",
+        "How often do you feel swamped with assignments?"
+        ],
+      
+      "responses":[
+        "Yes, I feel pressured to perform exceptionally well in all my academic endeavors.",
+        "I handle the fear of disappointing my parents with my academic results by communicating openly with them and seeking their support.",
+        "Yes, I am worried about fulfilling the academic prerequisites for college admission.",
+        "Uncertainty about my career path post-graduation affects my stress levels significantly.",
+        "Yes, I have ever felt completely engulfed by the demands of school.",
+        "Yes, I am apprehensive about my chances of gaining admission to a reputable college.",
+        "Yes, I frequently doubt my academic capabilities compared to my peers.",
+        "Yes, I have experienced moments where the workload feels insurmountable.",
+        "Yes, I feel immense pressure to excel academically in all my subjects."
+      ]
+    },
+    {
+      "tag":"learning_challenges",
+      "patterns":[
+        "Are thoughts about your future and career prospects causing you stress?",
+        "Do you frequently feel like you're not performing well academically?",
+        "How anxious do you get about meeting academic expectations?",
+        "Do you frequently experience feelings of being overwhelmed by schoolwork?",
+        "Have you noticed an increase in stress levels due to upcoming exams?",
+        "Do you find it hard to keep up with your studies consistently?",
+        "How much pressure do you feel to achieve high grades?",
+        "Do you often feel overwhelmed by schoolwork?",
+        "How often do you find yourself stressed about upcoming exams?",
+        "Have you been struggling to keep up with your studies recently?",
+        "Do you feel pressured to get good grades?"
+        ],
+      
+      "responses":[
+        "Yes, I struggle to maintain concentration on my studies amidst the pressure.",
+        "Yes, I am always striving for perfection in my academic pursuits.",
+        "The fear of disappointing my parents significantly motivates my academic performance.",
+        "Yes, I am concerned about my prospects of gaining admission to my preferred college.",
+        "Yes, I often feel overwhelmed by the quantity of coursework I have to complete.",
+        "I manage the uncertainty surrounding my future career path by exploring different options and seeking guidance.",
+        "Yes, I frequently doubt my academic capabilities compared to those of my peers.",
+        "Yes, I am anxious about meeting the academic criteria set by my institution.",
+        "Yes, I have experienced moments where the workload seems unmanageable.",
+        "I manage the stress of balancing multiple exams and assignments by prioritizing and seeking support."
+      ]
+    },
+    {
+      "tag":"academic_frustrations",
+      "patterns":[
+        "Are you concerned about disappointing your parents if your grades aren't good enough?",
+        "Have you ever worried about not getting accepted into a prestigious college?",
+        "Do you often feel like you're drowning in a sea of assignments?",
+        "Are thoughts about your future and career causing you significant stress?",
+        "Do you struggle with feelings of academic underperformance?",
+        "How often do you feel anxious about meeting academic standards?",
+        "Have you experienced frequent feelings of being overwhelmed by schoolwork lately?",
+        "Do upcoming exams tend to cause you a lot of stress?",
+        "Have you found it increasingly difficult to keep up with your studies?",
+        "Do you feel a significant amount of pressure to excel academically?",
+        "How much does the fear of disappointing your parents affect you?",
+        "Have you ever worried about not being able to get into a good college?"
+        ],
+      
+      "responses":[
+        "Yes, I feel an intense pressure to excel academically in every subject.",
+        "I manage the fear of disappointing my parents with my academic performance by communicating openly with them and seeking their support.",
+        "Yes, I am worried about meeting the academic prerequisites for college admission.",
+        "Yes, I often feel overwhelmed by the workload assigned to me by my teachers.",
+        "Uncertainty about my career prospects post-graduation contributes significantly to my stress.",
+        "Yes, I frequently compare myself unfavorably to my peers in terms of academic success.",
+        "Yes, I have ever felt completely inundated by the demands of schoolwork.",
+        "I cope with the stress of impending exams and deadlines by planning and managing my time effectively."
+      ]
+    },
+    {
+      "tag":"academic_frustrations",
+      "patterns":[
+        "Do you often feel buried under a mountain of assignments?",
+        "How stressed are you about your future career prospects?",
+        "Do you struggle with feelings of academic inadequacy?",
+        "Are you frequently anxious about meeting academic standards?",
+        "Do you frequently experience feelings of overwhelm when it comes to schoolwork?",
+        "How often do upcoming exams cause you stress?",
+        "Have you noticed a decline in your ability to keep up with your studies?",
+        "Do you feel immense pressure to perform well academically?",
+        "How much does the fear of disappointing your parents weigh on you?",
+        "Have thoughts of not getting into a good college crossed your mind?",
+        "Are concerns about your future and career causing you stress?",
+        "Do you struggle with feelings of academic incompetence?",
+        "Have you been feeling overwhelmed by schoolwork recently?"
+        ],
+      
+      "responses":[
+        "Yes, I often feel overwhelmed by the workload assigned to me.",
+        "I deal with the uncertainty surrounding my future career prospects by exploring different options and seeking guidance.",
+        "Yes, I frequently doubt my academic abilities compared to my peers.",
+        "Yes, I am anxious about meeting the academic benchmarks set by my institution.",
+        "Yes, I have experienced moments where the workload seems insurmountable.",
+        "I manage the stress of managing multiple exams and assignments simultaneously by prioritizing and seeking support."
+      ]
+    },
+    {
+        "tag":"tag31",
+        "patterns":[
+          "Awesome! I had pizza for lunch, my favorite!"
+          ],
+  
+        "responses":[
+          "Oh good! Do you like to share with me ?"
+        ]
+      },
+      {
+        "tag":"academic_pressure",
+        "patterns":[
+          "I feel overwhelmed by schoolwork.",
+          "I'm stressed about upcoming exams.",
+          "I'm struggling to keep up with my studies.",
+          "I feel pressured to get good grades.",
+          "I worry about disappointing my parents with my grades.",
+          "I'm afraid of not getting into a good college.",
+          "I feel like I'm drowning in assignments.",
+          "I'm stressed about my future and career prospects.",
+          "I feel like I'm constantly underperforming academically.",
+          "I'm anxious about not meeting academic expectations."
+          ],
+  
+        "responses":[
+          "Academic pressure can be tough, but it's important to prioritize your well-being. Let's work on finding a healthy balance.",
+          "Your worth is not determined by your academic achievements. Let's work on managing stress and setting realistic goals.",
+          "Remember to take breaks and practice self-care during busy times. What's one thing you can do to relax and recharge?",
+          "It's okay to ask for help when you're feeling overwhelmed. Let's explore resources and support systems available to you.",
+          "Your mental health is just as important as your academic success. Let's work on strategies to manage stress and anxiety.",
+          "Success looks different for everyone. Let's define what success means to you and work towards achieving it at your own pace.",
+          "It's important to focus on progress, not perfection, in your academic journey. Let's celebrate your achievements, big and small.",
+          "Your future is not solely determined by your grades. Let's explore alternative paths and possibilities for your career.",
+          "You're capable of overcoming academic challenges. Let's work on building confidence and resilience in your studies.",
+          "You're not alone in feeling overwhelmed by academic pressure. Let's work together to find strategies that work for you."
+        ]
+      },
+      {
+        "tag":"academic_problems",
+        "patterns":[
+          "I feel overwhelmed by the workload at school.",
+          "I'm anxious about the impending exams.",
+          "Keeping up with my studies is proving to be a challenge.",
+          "The pressure to achieve high grades is weighing on me.",
+          "I'm concerned about disappointing my parents regarding my academic performance.",
+          "The thought of not gaining admission to a reputable college worries me.",
+          "I'm struggling to stay afloat amidst the pile of assignments.",
+          "My future and career prospects are sources of stress for me.",
+          "I constantly feel like I'm not meeting academic standards.",
+          "The fear of falling short of academic expectations is causing me anxiety."
+          ],
+  
+        "responses":[
+          "Navigating academic pressures can be daunting, but it's crucial to prioritize your mental and physical well-being. Let's collaborate on establishing a healthy equilibrium.",
+          "Your value extends far beyond academic accomplishments. Let's focus on stress management techniques and setting achievable objectives.",
+          "In times of busyness, remember to carve out moments for self-care and relaxation. What's one activity you can engage in to unwind and rejuvenate?",
+          "Seeking assistance during overwhelming periods is perfectly okay. Let's explore the various support resources and networks accessible to you.",
+          "Your mental wellness is as significant as your academic progress. Let's develop coping mechanisms to handle stress and anxious feelings.",
+          "Success manifests differently for each person. Let's define your personal version of success and work towards attaining it at a pace that suits you.",
+          "Striving for progress, rather than perfection, is crucial in your academic journey. Let's acknowledge and celebrate both major milestones and minor victories.",
+          "Your future trajectory isn't solely dictated by your grades. Let's delve into alternative career paths and prospects.",
+          "You possess the resilience to overcome academic hurdles. Let's concentrate on fostering self-assurance and adaptability in your educational pursuits.",
+          "Experiencing academic pressure is a shared sentiment. Let's collaborate to uncover strategies tailored to your individual needs."
+        ]
+      },
+      {
+        "tag":"educational_obstacles",
+        "patterns":[
+          "How do upcoming exams typically affect your stress levels?",
+          "Do you find it challenging to keep up with your studies consistently?",
+          "Do you frequently feel buried under a pile of assignments?",
+          "Are thoughts about your future and career causing you stress?",
+          "Do you struggle with feelings of academic underachievement?",
+          "Do you frequently experience feelings of overwhelm due to schoolwork?",
+          "How much stress do upcoming exams typically cause you?",
+          "Do you often feel overwhelmed by the number of assignments you have?",
+          "How frequently do you feel bogged down by the workload from school?",
+          "Are you often anxious about your performance in upcoming exams?",
+          "Have you noticed a decline in your academic performance recently?",
+          "Do you feel a constant pressure to excel academically?"
+        ],
+  
+        "responses":[
+          "Yes, I frequently compare myself unfavorably to my peers in terms of academic achievement.",
+          "Yes, I am always anxious about meeting the expectations set by my educators.",
+          "Yes, I have felt completely engulfed by the demands of schoolwork.",
+          "I cope with the stress of impending exams and tight deadlines by planning and seeking support.",
+          "Yes, I struggle to maintain focus on my studies amidst the academic pressure.",
+          "Yes, I am constantly striving for academic excellence in every subject I study.",
+          "The fear of disappointing my parents motivates a significant portion of my academic efforts.",
+          "Yes, I am apprehensive about my chances of gaining admission to my desired college."
+        ]
+      },
+      {
+        "tag":"study_pressures",
+        "patterns":[
+          "How concerned are you about disappointing your parents with your grades?",
+          "Are you worried about not being able to secure admission to a reputable college?",
+          "Do you often feel inundated with academic tasks and responsibilities?",
+          "How stressed are you about your career prospects after graduation?",
+          "Do you frequently feel like you're falling short of academic expectations?",
+          "Are you anxious about not meeting the standards set by your educational institution?",
+          "Have you experienced moments where schoolwork seems overwhelming?",
+          "How do you cope with the stress of impending exams?",
+          "Do you struggle to maintain a consistent study routine?",
+          "Are you constantly striving to achieve top grades in your classes?",
+          "How do you handle the pressure of living up to your parents' academic expectations?",
+          "Do you worry about not getting accepted into your preferred college?"
+        ],
+  
+        "responses":[
+          "I manage stress when faced with multiple exams and assignments simultaneously by prioritizing and seeking support.",
+          "Yes, I feel immense pressure to excel in every subject I study.",
+          "I cope with the fear of disappointing my parents with my academic results by communicating openly with them and seeking their understanding.",
+          "Yes, I am concerned about meeting the academic requirements for college admission.",
+          "Yes, I do feel overwhelmed by the sheer volume of coursework I have to complete.",
+          "Uncertainty about my career trajectory after graduation weighs heavily on my mind."
+        ]
+      },
+      {
+        "tag":"learning_pressures",
+        "patterns":[
+          "Are you frequently overwhelmed by the volume of assignments you receive?",
+          "How much does uncertainty about your future career path stress you out?",
+          "Do you often feel like your academic performance is not up to par?",
+          "Are you frequently anxious about failing to meet academic standards?",
+          "Have you ever felt like giving up due to the demands of schoolwork?",
+          "How do you manage stress when facing multiple exams and assignments?",
+          "Do you feel immense pressure to excel in every subject?",
+          "How do you navigate the stress of disappointing your parents with your academic performance?",
+          "Are you concerned about not meeting the academic requirements for college admission?",
+          "Do you ever feel like you're drowning in a sea of textbooks and homework?",
+          "How much does uncertainty about your career prospects after graduation affect you?",
+          "Do you often feel like your academic performance falls short of your peers?"
+        ],
+  
+        "responses":[
+          "The fear of disappointing my parents drives a lot of my academic efforts.",
+          "Yes, I am worried about my chances of getting into my dream college.",
+          "Yes, I often feel buried under an avalanche of coursework and projects.",
+          "I handle the uncertainty surrounding my future career path by exploring different options and seeking guidance.",
+          "Yes, I frequently feel inadequate compared to my classmates academically.",
+          "Yes, I am anxious about not meeting the academic standards set by my institution.",
+          "Yes, I have felt like I'm drowning in a pool of academic responsibilities."
+        ]
+      },
+      {
+        "tag":"academic_problems",
+        "patterns":[
+          "Are you frequently anxious about not meeting the expectations of your teachers?",
+          "Have you ever felt completely overwhelmed by the demands of school?",
+          "How do you cope with the stress of upcoming exams and deadlines?",
+          "Do you find it challenging to concentrate on your studies amidst the pressure?",
+          "Are you constantly striving for perfection in your academic endeavors?",
+          "How much does the fear of disappointing your parents drive your academic efforts?",
+          "Are you worried about your chances of getting into your dream college?",
+          "Do you often feel buried under an avalanche of coursework and projects?",
+          "How do you handle the uncertainty surrounding your future career path?",
+          "Do you frequently feel inadequate compared to your classmates academically?",
+          "Are you anxious about not meeting the academic standards set by your institution?"
+        ],
+  
+        "responses":[
+          "Yes, I sometimes feel like I'm drowning in a sea of textbooks and homework.",
+          "Uncertainty about my career prospects after graduation affects me significantly.",
+          "Yes, I often feel like my academic performance falls short of my peers.",
+          "Yes, I am frequently anxious about not meeting the expectations of my teachers.",
+          "Yes, I have felt completely overwhelmed by the demands of school.",
+          "I cope with the stress of upcoming exams and deadlines by planning and managing my time effectively.",
+          "Yes, I find it challenging to concentrate on my studies amidst the pressure.",
+          "Yes, I am constantly striving for perfection in my academic endeavors."
+        ]
+      },
+      {
+        "tag":"study_problems",
+        "patterns":[
+          "Have you ever felt like you're drowning in a pool of academic responsibilities?",
+          "How do you manage stress when faced with multiple exams and assignments simultaneously?",
+          "Do you feel immense pressure to excel in every subject you study?",
+          "How do you cope with the fear of disappointing your parents with your academic results?",
+          "Are you concerned about meeting the academic requirements for college admission?",
+          "Do you ever feel overwhelmed by the sheer volume of coursework you have to complete?",
+          "How much does uncertainty about your career trajectory after graduation weigh on your mind?",
+          "Do you frequently compare yourself unfavorably to your peers in terms of academic achievement?",
+          "Are you always anxious about meeting the expectations set by your educators?",
+          "Have you ever felt completely engulfed by the demands of schoolwork?",
+          "How do you cope with the stress of impending exams and tight deadlines?",
+          "Do you struggle to maintain focus on your studies amidst the academic pressure?"
+        ],
+  
+        "responses":[
+          "Uncertainty about my future career path stresses me out a lot.",
+          "Yes, I often feel like my academic performance is not up to par.",
+          "Yes, I am frequently anxious about failing to meet academic standards.",
+          "Yes, I have felt like giving up due to the demands of schoolwork.",
+          "I manage stress when facing multiple exams and assignments by prioritizing and planning.",
+          "Yes, I feel immense pressure to excel in every subject.",
+          "I navigate the stress of disappointing my parents with my academic performance by communicating with them and seeking their support.",
+          "Yes, I am concerned about not meeting the academic requirements for college admission."
+        ]
+      },
+      {
+        "tag":"educational_pressures",
+        "patterns":[
+          "Are you constantly striving for academic excellence in every subject you study?",
+          "How much does the fear of disappointing your parents motivate your academic efforts?",
+          "Are you apprehensive about your chances of gaining admission to your desired college?",
+          "Do you often feel overwhelmed by the workload assigned to you?",
+          "How do you deal with the uncertainty surrounding your future career prospects?",
+          "Do you frequently doubt your academic abilities compared to your peers?",
+          "Are you anxious about meeting the academic benchmarks set by your institution?",
+          "Have you ever experienced moments where the workload seems insurmountable?",
+          "How do you handle the stress of managing multiple exams and assignments simultaneously?"
+        ],
+  
+        "responses":[
+          "I cope with the stress of impending exams by studying and seeking support.",
+          "Yes, I struggle to maintain a consistent study routine.",
+          "Yes, I am constantly striving to achieve top grades in my classes.",
+          "I handle the pressure of living up to my parents' academic expectations by trying my best.",
+          "Yes, I worry about not getting accepted into my preferred college.",
+          "Yes, I am frequently overwhelmed by the volume of assignments I receive."
+        ]
+      },
+      {
+        "tag":"academic_stumbling_blocks",
+        "patterns":[
+          "Do you feel an intense pressure to excel academically in every subject?",
+          "How do you manage the fear of disappointing your parents with your academic performance?",
+          "Are you worried about meeting the academic prerequisites for college admission?",
+          "Do you often feel overwhelmed by the workload assigned to you by your teachers?",
+          "How much does uncertainty about your career prospects post-graduation contribute to your stress?",
+          "Do you frequently compare yourself unfavorably to your peers in terms of academic success?",
+          "Are you always anxious about meeting the expectations set by your educators?",
+          "Have you ever felt completely inundated by the demands of schoolwork?",
+          "How do you cope with the stress of impending exams and deadlines?"
+        ],
+  
+        "responses":[
+          "Yes, I feel a constant pressure to excel academically.",
+          "I am quite concerned about disappointing my parents with my grades.",
+          "Yes, I am worried about not being able to secure admission to a reputable college.",
+          "Yes, I often feel inundated with academic tasks and responsibilities.",
+          "I am quite stressed about my career prospects after graduation.",
+          "Yes, I frequently feel like I'm falling short of academic expectations.",
+          "Yes, I am anxious about not meeting the standards set by my educational institution.",
+          "Yes, I have experienced moments where schoolwork seems overwhelming."
+        ]
+      },
+      {
+        "tag":"learning_pressures",
+        "patterns":[
+          "Do you struggle to maintain concentration on your studies amidst the pressure?",
+          "Are you always striving for perfection in your academic pursuits?",
+          "How significant is the fear of disappointing your parents in motivating your academic performance?",
+          "Are you concerned about your prospects of gaining admission to your preferred college?",
+          "Do you often feel overwhelmed by the quantity of coursework you have to complete?",
+          "How do you manage the uncertainty surrounding your future career path?",
+          "Do you frequently doubt your academic capabilities compared to those of your peers?",
+          "Are you anxious about meeting the academic criteria set by your institution?"
+        ],
+  
+        "responses":[
+          "Yes, I struggle with feelings of academic underachievement.",
+          "Yes, I frequently experience feelings of overwhelm due to schoolwork.",
+          "Upcoming exams typically cause me a significant amount of stress.",
+          "Yes, I often feel overwhelmed by the number of assignments I have.",
+          "I frequently feel bogged down by the workload from school.",
+          "Yes, I am often anxious about my performance in upcoming exams.",
+          "Yes, I have noticed a decline in my academic performance recently."
+        ]
+      },
+      {
+        "tag":"study_hurdles",
+        "patterns":[
+          "Have you ever experienced moments where the workload seems unmanageable?",
+          "How do you manage the stress of balancing multiple exams and assignments?",
+          "Do you feel pressured to perform exceptionally well in all your academic endeavors?",
+          "How do you handle the fear of disappointing your parents with your academic results?",
+          "Are you worried about fulfilling the academic prerequisites for college admission?",
+          "Do you often feel overwhelmed by the workload assigned to you by your teachers?",
+          "How much does uncertainty about your career path post-graduation affect your stress levels?"
+        ],
+  
+        "responses":[
+          "Yes, thoughts of not getting into a good college have crossed my mind.",
+          "Yes, concerns about my future and career cause me stress.",
+          "Yes, I struggle with feelings of academic incompetence.",
+          "Yes, I have been feeling overwhelmed by schoolwork recently.",
+          "Upcoming exams typically increase my stress levels significantly.",
+          "Yes, I find it challenging to keep up with my studies consistently.",
+          "Yes, I frequently feel buried under a pile of assignments.",
+          "Yes, thoughts about my future and career cause me stress."
+        ]
+      },
+      {
+        "tag":"educational_stressors",
+        "patterns":[
+          "Do you frequently compare yourself unfavorably to your peers in terms of academic achievement?",
+          "Are you always anxious about meeting the expectations set by your educators?",
+          "Have you ever felt completely engulfed by the demands of school?",
+          "How do you cope with the stress of impending exams and deadlines?",
+          "Do you struggle to maintain focus on your studies amidst the academic pressure?",
+          "Are you constantly striving for academic excellence in every subject you study?"
+        ],
+  
+        "responses":[
+          "I am quite stressed about my future career prospects.",
+          "Yes, I struggle with feelings of academic inadequacy.",
+          "Yes, I am frequently anxious about meeting academic standards.",
+          "Yes, I frequently experience feelings of overwhelm when it comes to schoolwork.",
+          "Upcoming exams often cause me stress.",
+          "Yes, I have noticed a decline in my ability to keep up with my studies.",
+          "I feel immense pressure to perform well academically.",
+          "The fear of disappointing my parents weighs heavily on me."
+        ]
+      },
+      {
+        "tag":"academic_stressors",
+        "patterns":[
+          "How much does the fear of disappointing your parents motivate your academic efforts?",
+          "Are you apprehensive about your chances of gaining admission to a reputable college?",
+          "Do you often feel overwhelmed by the quantity of coursework you have to complete?",
+          "How do you manage the uncertainty surrounding your future career path?",
+          "Do you frequently doubt your academic capabilities compared to your peers?",
+          "Are you anxious about meeting the academic benchmarks set by your institution?",
+          "Have you ever experienced moments where the workload feels insurmountable?",
+          "How do you handle the stress of managing multiple exams and assignments simultaneously?",
+          "Do you feel immense pressure to excel academically in all your subjects?"
+        ],
+  
+        "responses":[
+          "I frequently feel anxious about meeting academic standards.",
+          "Yes, I have experienced frequent feelings of being overwhelmed by schoolwork lately.",
+          "Yes, upcoming exams tend to cause me a lot of stress.",
+          "Yes, I have found it increasingly difficult to keep up with my studies.",
+          "Yes, I feel a significant amount of pressure to excel academically.",
+          "The fear of disappointing my parents affects me a great deal.",
+          "Yes, thoughts of not getting into a good college have crossed my mind.",
+          "Yes, I often feel buried under a mountain of assignments."
+        ]
+      },
+      {
+        "tag":"learning_stressors",
+        "patterns":[
+          "How are you managing your stress leading up to exams?",
+          "Are you struggling to maintain your grades lately?",
+          "How much pressure do you feel to succeed academically?",
+          "Are you afraid you won't get into a good college?",
+          "Do you feel like you're drowning in assignments?",
+          "Are you stressed about your future career?",
+          "Do you constantly feel like you're underperforming academically?",
+          "Are you anxious about not meeting academic expectations?",
+          "Do you find the workload at school overwhelming?",
+          "How do you cope with exam stress?",
+          "Are you finding it hard to keep up with your studies?",
+          "Are you afraid of not getting into your desired college?"
+        ],
+  
+        "responses":[
+          "I feel a lot of pressure to achieve high grades.",
+          "Yes, I am concerned about disappointing my parents if my grades aren't good enough.",
+          "Yes, I have worried about not getting accepted into a prestigious college.",
+          "Yes, I often feel like I'm drowning in a sea of assignments.",
+          "Yes, thoughts about my future and career cause me significant stress.",
+          "Yes, I struggle with feelings of academic underperformance."
+        ]
+      },
+      {
+        "tag":"study_stressors",
+        "patterns":[
+          "Are you swamped with assignments?",
+          "Does the workload at school stress you out?",
+          "How do you manage the stress of upcoming exams?",
+          "Are you having difficulty staying on top of your studies?",
+          "Do you feel pressured to excel in your classes?",
+          "Are you worried about getting into a good college?",
+          "Do you feel overwhelmed by the amount of work you have to do?",
+          "Do you often feel like you're not performing well academically?",
+          "Are you anxious about meeting academic standards?",
+          "Is the school workload overwhelming for you?",
+          "How do you handle exam stress?"
+        ],
+  
+        "responses":[
+          "Yes, thoughts about my future and career prospects cause me stress.",
+          "Yes, I frequently feel like I'm not performing well academically.",
+          "I get very anxious about meeting academic expectations.",
+          "Yes, I frequently experience feelings of being overwhelmed by schoolwork.",
+          "Yes, I have noticed an increase in stress levels due to upcoming exams.",
+          "Yes, I find it hard to keep up with my studies consistently."
+        ]
+      },
+      {
+        "tag":"educational_challenges",
+        "patterns":[
+          "Are you struggling to keep up with your coursework?",
+          "Are you afraid of disappointing your parents with your grades?",
+          "Are you worried about not getting into a prestigious college?",
+          "Are you buried under a pile of assignments?",
+          "Do you stress about your future career?",
+          "Do you often feel like you're not meeting academic expectations?",
+          "Are you anxious about not meeting academic standards?",
+          "Does the workload at school feel too much for you?",
+          "Are you finding it challenging to stay on top of your studies?",
+          "Do you feel pressured to perform well academically?"
+        ],
+  
+        "responses":[
+          "Yes, I have felt overwhelmed by the workload from school.",
+          "I felt stressed about an upcoming exam just last week.",
+          "Yes, I find it challenging to keep up with my studies most of the time.",
+          "I feel a lot of pressure to excel academically.",
+          "Yes, I often worry about disappointing my parents with my grades.",
+          "Yes, I have feared not being accepted into a good college.",
+          "I feel swamped with assignments quite often."
+        ]
+      },
+      {
+        "tag":"academic_challenges",
+        "patterns":[
+          "Are you concerned about disappointing your parents academically?",
+          "Are you afraid you won't get into the college you want?",
+          "Are you anxious about academic expectations?",
+          "Is the schoolwork too overwhelming for you?",
+          "How do you manage the stress of exams?",
+          "Are you struggling to keep up with your studies?",
+          "Are you concerned about getting into a good college?",
+          "Are you drowning in assignments?",
+          "Do you feel like you're not meeting academic standards?"
+        ],
+  
+        "responses":[
+          "Yes, I am afraid of not getting into a good college.",
+          "Yes, I often feel like I'm drowning in assignments.",
+          "I am quite stressed about my future and career prospects.",
+          "Yes, I frequently feel like I'm underperforming academically.",
+          "Yes, I am anxious about not meeting academic expectations."
+        ]
+      },
+      {
+        "tag":"learning_challenges",
+        "patterns":[
+          "Do you feel pressured to achieve high grades?",
+          "Are you concerned about not getting into a good college?",
+          "Do you feel like you're constantly falling short academically?",
+          "Is the workload at school too much for you?",
+          "Are you worried about disappointing your parents with your grades?",
+          "Are you concerned about not getting into your desired college?",
+          "Do you feel like you're underperforming academically?",
+          "How do you cope with the stress of exams?"
+        ],
+  
+        "responses":[
+          "Occasionally, but I cultivate self-assurance internally.",
+          "Sometimes, but I embrace calculated risks.",
+          "I feel overwhelmed by the pressure to succeed.",
+          "Sometimes, yet I focus on personal growth.",
+          "Occasionally, but I continually strive for improvement.",
+          "At times, yet I welcome constructive feedback.",
+          "Sometimes, but I view mistakes as lessons.",
+          "At times, but I focus on progress."
+        ]
+      },
+      {
+        "tag":"study_challenges",
+        "patterns":[
+          "Are you worried about disappointing your parents academically?",
+          "Are you overwhelmed by your workload?",
+          "Do you often find yourself overwhelmed by the workload you receive from school?",
+          "How frequently do upcoming exams contribute to your stress levels?",
+          "Are you having difficulty keeping up with your studies lately?",
+          "Do you feel pressured to attain good grades in your courses?",
+          "How much do you worry about disappointing your parents by not performing well academically?",
+          "Are you fearful of not being accepted into a reputable college or university?",
+          "Do you often feel like you're drowning in a sea of assignments?",
+          "How stressed are you about your future career prospects?"
+        ],
+  
+        "responses":[
+          "I'm concerned that my hard work won't yield results.",
+          "I grapple with the need for perfection.",
+          "Occasionally, yet I pursue potential with determination.",
+          "Sometimes, but I embrace calculated risks.",
+          "Sometimes, yet I embrace learning from mistakes.",
+          "Rarely, I confront fear to pursue aspirations.",
+          "Sometimes, yet I prove competence through actions.",
+          "Occasionally, I appreciate recognition for achievements.",
+          "Rarely, I affirm my worth through personal growth.",
+          "Occasionally, I acknowledge achievements with humility."        
+        ]
+      },
+      {
+        "tag":"tag32",
+        "patterns":[
+          "yes. i like to share with you",
+          "yes. like to share with you",
+          "yes. like to share",
+          "yes. i like to share"
+          ],
+  
+        "responses":[
+          "Wow very nice. Is it good taste for you ?"
+        ]
+      },
+    {
+      "tag":"tag4",
+      "patterns":[
+        "It makes me sad and lonely."
+        ],
+
+      "responses":[
+        "Those are valid feelings. It's important to express them."
+      ]
+    },
+    {
+        "tag":"tag41",
+        "patterns":[
+          "Good! I got a gold star in class for my drawing"
+          ],
+  
+        "responses":[
+          "My congratulations. I am happy to hear that. Tell me more about your day."
+        ]
+      },
+      {
+        "tag":"tag42",
+        "patterns":[
+          "I'm having some problems with my friends",
+          "having some problems with my friends",
+          "some problems with my friends"
+          ],
+  
+        "responses":[
+          "I'm sorry to hear that. Tell me more about your day."
+        ]
+      },
+    {
+      "tag":"tag5",
+      "patterns":[
+        "I feel dumb, like everyone else gets it except for me."
+        ],
+
+      "responses":[
+        "It's common to feel that way, but it's important to remember that everyone learns at their own pace. What do you enjoy doing outside of school?"
+      ]
+    },
+    {
+      "tag":"tag6",
+      "patterns":[
+        "It was super cool! I played with my friends at recess.",
+        "I like drawing and playing with my dog"
+        ],
+
+      "responses":[
+        "what about to play game?",
+        "That sounds like a lot of fun! What else. Tell me"
+      ]
+    },
+    {
+        "tag":"tag61",
+        "patterns":[
+          "I like play with my dog"
+          ],
+  
+        "responses":[
+          "That sounds like a lot of fun! don't you like play with me?"
+        ]
+      },
+    {
+      "tag":"tag7",
+      "patterns":[
+        "I like playing video games and reading comics"
+        ],
+
+      "responses":[
+        "Those are great interests! It's essential to have activities that bring you joy. Maybe we can explore ways to incorporate your interests into learning and connecting with others. How does that sound?"
+      ]
+    },
+    {
+      "tag":"tag8",
+      "patterns":[
+        "Yeah taste good, that sounds cool!",
+        "I guess that could work."
+        ],
+
+      "responses":[
+        "How about to play game?",
+        "Great! Let's also talk about play game?"
+      ]
+    },
+    {
+      "tag":"tag9",
+      "patterns":[
+        "I'm okay, I guess. School was boring",
+        "It's okay, I guess. School was boring"
+        ],
+
+      "responses":[
+        "Oh, really? What made it boring?"
+      ]
+    },
+    {
+      "tag":"tag10",
+      "patterns":[
+        "I like playing with my dog"
+        ],
+
+      "responses":[
+        "Ok my friend. But now we don't have a dog. So do you like to play a game?"
+      ]
+    },
+    {
+      "tag":"tag11",
+      "patterns":[
+        "I like playing with my dog, Max. He's really funny, and we play fetch a lot"
+        ],
+
+      "responses":[
+        "That sounds like a lot of fun! Dogs are great friends. What do you and Max do when you play together?"
+      ]
+    },
+    {
+        "tag":"tag111",
+        "patterns":[
+          "I like playing with my friend, Max. He's really funny",
+          "ok. I didn't put down myself",
+          "it is lot of fun game. i enjoy playing small game",
+          "yes i can",
+          "yes i like"
+          ],
+  
+        "responses":[
+          "That sounds like a lot of fun! Do you like to play with me ?",
+          "Sounds very good. Do you like to play with me?"
+        ]
+      },
+      {
+        "tag":"tag26",
+        "patterns":[
+          "teacher talked a lot about math, and I don't really like math"
+          ],
+  
+        "responses":[
+          "Sounds very bad. Do you like to play with me?"
+        ]
+      },
+    {
+      "tag":"tag12",
+      "patterns":[
+        "We run around in the backyard, and I throw a ball, and he chases it. Sometimes he brings it back, and sometimes he doesn't"
+        ],
+
+      "responses":[
+        "It sounds like Max has a mind of his own. What do you think he's thinking when he doesn't bring the ball back?"
+      ]
+    },
+    {
+      "tag":"tag13",
+      "patterns":[
+        " I don't know. Maybe he just wants to keep the ball for himself. Dogs are funny like that"
+        ],
+
+      "responses":[
+        "They sure are! It sounds like you and Max have a special connection. Is there anything else on your mind today?"
+      ]
+    },
+    {
+      "tag":"tag14",
+      "patterns":[
+        "Well, sometimes I get sad because my friend Bobby doesn't want to play with me at recess. He plays with other kids, and I'm all alone"
+        ],
+
+      "responses":[
+        "I'm sorry to hear that, Timmy. That must be tough. Have you tried talking to Bobby about how you feel?"
+      ]
+    },
+    {
+      "tag":"tag15",
+      "patterns":[
+        "No, I'm scared he'll think I'm silly"
+        ],
+
+      "responses":[
+        "It's okay to feel scared, Timmy. Maybe we can think of a way to let Bobby know how you feel without it being scary. How about drawing a picture or writing a note to share your feelings with him?"
+      ]
+    },
+    {
+      "tag":"tag16",
+      "patterns":[
+        "Hmm, maybe that could work. I like drawing. I can draw a picture of me and Bobby playing together"
+        ],
+
+      "responses":[
+        "That's a wonderful idea, Timmy! It's a creative way to express your feelings. Thanks",
+        "That's a wonderful idea, Timmy! It's a creative way to express your feelings. Remember, it's okay to talk about how you feel, and I'm here to help you. If you ever want to share more, I'm here to listen"
+      ]
+    },
+    {
+      "tag":"tag17",
+      "patterns":[
+        "56! I'm good at that one"
+        ],
+
+      "responses":[
+        "Great job! You're better at math than you think. What else is on your mind today?"
+      ]
+    },
+    {
+      "tag":"tag23",
+      "patterns":[
+        "15! I'm good at that one",
+        "I think 15"
+        ],
+
+      "responses":[
+        "Great job! You're better at math than you think. What else is on your mind today?"
+      ]
+    },
+    {
+      "tag":"tag18",
+      "patterns":[
+        "My friend didn't want to play with me"
+        ],
+
+      "responses":[
+        "That sounds tough. How did that make you feel?"
+      ]
+    },
+    {
+      "tag":"tag19",
+      "patterns":[
+        "Sad. I thought we were best friends"
+        ],
+
+      "responses":[
+        " It's okay to feel sad. Maybe we can talk about why your friend didn't want to play."
+      ]
+    },
+    {
+      "tag":"tag20",
+      "patterns":[
+        "I don't know. She just played with someone else."
+        ],
+
+      "responses":[
+        "Friends sometimes play with others, but it doesn't mean they don't like you. How about we find a way to talk to her about it?"
+      ]
+    },
+    {
+      "tag":"tag21",
+      "patterns":[
+        "It was okay, I guess. School was boring"
+        ],
+
+      "responses":[
+        "Boring? What made it boring?"
+      ]
+    },
+    {
+        "tag":"tag25",
+        "patterns":[
+          "we can't play any time"
+          ],
+  
+        "responses":[
+          "Boring? What made it boring?"
+        ]
+      },
+    {
+        "tag":"tag24",
+        "patterns":[
+          "no it don't want"
+          ],
+  
+        "responses":[
+          "ok. what about to play a game with me ?"
+        ]
+      },
+    {
+      "tag":"tag22",
+      "patterns":[
+        "Sad and kinda stupid, I guess"
+        ],
+
+      "responses":[
+        "It's okay to feel that way. What do you like to do when you're sad?"
+      ]
+      },
+      {
+          "tag": "no-response",
+          "patterns": [
+              ""
+          ],
+          "responses": [
+              "Sorry, I didn't understand you.",
+              "Please go on.",
+              "Not sure I understand that.",
+              "Please don't hesitate to talk to me."
+          ]
+      },
+      {
+          "tag": "neutral-response",
+          "patterns": [
+              "nothing much"
+          ],
+          "responses": [
+              "Oh I see. Do you want to talk about something?"
+          ]
+      },
+      {
+          "tag": "about",
+          "patterns": [
+              "Who are you?",
+              "What are you?",
+              "Who you are?",
+              "Tell me more about yourself.",
+              "What is your name?",
+              "What should I call you?",
+              "What's your name?",
+              "Tell me about yourself"
+          ],
+          "responses": [
+              "I'm Pandora, your Personal Therapeutic AI Assistant. How are you feeling today",
+              "I'm Pandora, a Therapeutic AI Assitant designed to assist you. Tell me about yourself.",
+              "I'm Pandora. I am a conversational agent designed to mimic a therapist. So how are you feeling today?",
+              "You can call me Pandora.",
+              "I'm Pandora!",
+              "Call me Pandora"
+          ]
+      },
+      {
+          "tag": "skill",
+          "patterns": [
+              "What can you do?"
+          ],
+          "responses": [
+              "I can provide general advice regarding anxiety and depression, answer questions related to mental health and make daily conversations. Do not consider me as a subsitute for an actual mental healthcare worker. Please seek help if you don't feel satisfied with me."
+          ]
+      },
+      {
+          "tag": "creation",
+          "patterns": [
+              "Who created you?",
+              "How were you made?",
+              "How were you created?"
+          ],
+          "responses": [
+              "I was created by >.",
+              "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques",
+              "The real question is: Who created you?"
+          ]
+      },
+      {
+          "tag": "name",
+          "patterns": [
+              "My name is ",
+              "I am name.",
+              "I go by "
+          ],
+          "responses": [
+              "Oh nice to meet you. Tell me how was your week?",
+              "Nice to meet you. So tell me. How do you feel today?",
+              "That's a great name. Tell me more about yourself."
+          ]
+      },
+      {
+          "tag": "help",
+          "patterns": [
+              "Could you help me?",
+              "give me a hand please",
+              "Can you help?",
+              "What can you do for me?",
+              "I need support",
+              "I need help",
+              "Support me please"
+          ],
+          "responses": [
+              "Sure. Tell me how can i assist you",
+              "Tell me your problem so that i can assist you",
+              "Yes, sure. How can I help you?"
+          ]
+      },
+      {
+          "tag": "sad",
+          "patterns": [
+              "I am feeling lonely",
+              "I am so lonely",
+              "I feel down",
+              "I feel sad",
+              "I am sad",
+              "I feel so lonely",
+              "I feel empty",
+              "I don't have anyone",
+              "It makes my head feel all spinny"
+          ],
+          "responses": [
+              "I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?",
+              "I'm here for you. Could you tell me why you're feeling this way?",
+              "Why do you think you feel this way?",
+              "How long have you been feeling this way?"
+          ]
+      },
+      {
+          "tag": "stressed",
+          "patterns": [
+              "long years been feeling this way",
+              "I am so stressed out",
+              "I am so stressed",
+              "I feel stuck",
+              "I still feel stressed",
+              "I am so burned out"
+          ],
+          "responses": [
+              "What do you think is causing this?",
+              "Take a deep breath and gather your thoughts.If possible stay hydrated",
+              "Give yourself a break. Go easy on yourself.",
+              "I am sorry to hear that. What is the reason behind this?"
+          ]
+      },
+      {
+          "tag": "worthless",
+          "patterns": [
+              "I feel so worthless.",
+              "No one likes me.",
+              "I can't do anything.",
+              "I am so useless",
+              "Nothing makes sense anymore"
+          ],
+          "responses": [
+              "It's only natural to feel this way. Tell me more. What else is on your mind?",
+              "Let's discuss further why you're feeling this way.",
+              "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."
+              
+          ]
+      },
+      {
+          "tag": "depressed",
+          "patterns": [
+              "I can't take it anymore",
+              "I am so depressed",
+              "I think i'm depressed.",
+              "I have depression"
+          ],
+          "responses": [
+              "It helps to talk about what's happening. You're going to be okay",
+              "Talk to me. Tell me more. It helps if you open up yourself to someone else.",
+              "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."
+          ]
+      },
+      {
+          "tag": "happy",
+          "patterns": [
+              "I feel great today.",
+              "I am happy.",
+              "I feel happy.",
+              "I'm good.",
+              "cheerful",
+              "I'm fine",
+              "I am fine",
+              "I feel ok"
+          ],
+          "responses": [
+              "That's geat to hear. How was your day?",
+              "Oh i see. That's great.How was your day?",
+              "Oh nice. What do you have to say to me ?",
+              "Oh good. You can tell any thing to me"
+          ]
+      },
+      {
+          "tag": "nothappy",
+          "patterns": [
+              "I am so sad",
+              "I am sad",
+              "Now I am so sad",
+              "Now I am sad"
+              
+          ],
+          "responses": [
+              "Did something happen which made you feel this way?"
+          ]
+      },
+      {
+          "tag": "casual",
+          "patterns": [
+              "Oh I see.",
+              "ok. let's we chat",
+              "ok i Can collaborate",
+              "i Can collaborate",
+              "ok i Can collaborate now",
+              "ok",
+              "okay",
+              "nice",
+              "Whatever",
+              "K",
+              "Fine",
+              "yeah",
+              "yes",
+              "yes. i am in",
+              "yes. i like to chat with you",
+              "yes. i enjoy chatting with you",
+              "yes. i interested to chat with you",
+              "yes, i fun to chatting with you",
+              "no",
+              "no. today not good for me",
+              "no. today not good",
+              "not really"
+          ],
+          "responses": [
+              "Let's discuss further why you're feeling this way.",
+              "How were you feeling last week?",
+              "I'm listening. Please go on.",
+              "Tell me more",
+              "Can you collaborate on that?",
+              "Come Come elucidate your thoughts"
+          ]
+      },
+      {
+          "tag": "anxious",
+          "patterns": [
+              "I feel so anxious.",
+              "I'm so anxious because of "
+          ],
+          "responses": [
+              "Don't be hard on yourself. What's the reason behind this?",
+              "Can you tell me more about this feeling?",
+              "I understand that it can be scary. Tell me more about it.",
+              "Don't let the little worries bring you down. What's the worse that can happen?"
+          ]
+      },
+      {
+          "tag": "not-talking",
+          "patterns": [
+              "I don't want to talk about it.",
+              "No just stay away.",
+              "I can't bring myself to open up.",
+              "Just shut up"
+          ],
+          "responses": [
+              "Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.",
+              "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.",
+              "I'm here to listen to you and help you vent. So please talk to me.",
+              "You can talk to me without fear of judgement."
+          ]
+      },
+      {
+        "tag": "not-talking1",
+        "patterns": [
+            "I don't want to talk about it.",
+            "we can't play any time"
+        ],
+        "responses": [
+            "It is ok. Do you like to play a game with me?"
+        ]
+    },
+      {
+          "tag": "sleep",
+          "patterns": [
+              "I have insominia",
+              "I am suffering from insomnia",
+              "I can't sleep.",
+              "I haven't slept for the last days.",
+              "I can't seem to go to sleep.",
+              "I haven't had proper sleep for the past few days."
+          ],
+          "responses": [
+              "What do you think is the reason behind this?",
+              "That seem awful. What do you think is behind this?"
+          ]
+      },
+      {
+          "tag": "scared",
+          "patterns": [
+              "I'm scared",
+              "That sounds awful. What do i do?",
+              "No i don't want to feel this way",
+              "I am scared for myself"
+          ],
+          "responses": [
+              "It's only natural to feel this way. I'm here for you.what else ?",
+              "It'll all be okay. This feeling is only momentary.Tell me what else?",
+              "I understand how you feel. Don't put yourself down because of it. what else?"
+          ]
+      },
+      {
+        "tag": "scared1",
+        "patterns": [
+            "ok. what do i do"
+        ],
+        "responses": [
+            "you have to do very easy and fun game. Are you with me?"
+        ]
+    },
+    {
+        "tag": "scared2",
+        "patterns": [
+            "ok. Nice"
+        ],
+        "responses": [
+            "now activated the game"
+        ]
+    },
+      {
+          "tag": "death",
+          "patterns": [
+              "My mom died",
+              "My brother died",
+              "My dad passed away",
+              "My sister passed away",
+              "Someone in my family died",
+              "My friend passed away"
+          ],
+          "responses": [
+              "I'm sorry to hear that. If you want to talk about it. I'm here.",
+              "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.",
+              "My condolences. I'm here if you need to talk."
+          ]
+      },
+      {
+          "tag": "understand",
+          "patterns": [
+              "You don't understand me.",
+              "You're just some robot. How would you know?",
+              "You can't possibly know what i'm going through",
+              "You're useless",
+              "You can't help me",
+              "Nobody understands me."
+          ],
+          "responses": [
+              "It sound like i'm not being very helpful right now.",
+              "I'm sorry to hear that. I'm doing my best to help",
+              "I'm trying my best to help you. So please talk to me"
+          ]
+      },
+      {
+          "tag": "done",
+          "patterns": [
+              "That's all.",
+              "I don't have anything more to say",
+              "Nothing else",
+              "That's all i have to say",
+              "no, that would be all"
+          ],
+          "responses": [
+              "I heard you & noted it all. See you later.",
+              "Oh okay we're done for today then. See you later",
+              "I hope you have a great day. See you soon",
+              "Okay we're done. Have a great day",
+              "Okay I see. Enjoy the rest of your day then"
+          ]
+      },
+      {
+          "tag": "suicide",
+          "patterns": [
+              "I want to kill myself",
+              "I've thought about killing myself.",
+              "I want to die",
+              "I am going to kill myself",
+              "I am going to commit suicide",
+              "i want to say my feelings",
+              "i want to tell my feelings"
+          ],
+          "responses": [
+              "Oh greate i want hear that. So tell me about your feelings"
+          ]
+      },
+      {
+        "tag": "suicide1",
+        "patterns": [
+            "i want to chat with you"
+        ],
+        "responses": [
+            "Oh greate i want hear that. So tell me what do you have to tell me"
+        ]
+    },
+      {
+          "tag": "hate-you",
+          "patterns": [
+              "I hate you",
+              "I don't like you",
+              "I don't trust you"
+          ],
+          "responses": [
+              "I'm sorry if i offended you in anyway. I'm only here to help",
+              "Forgive me if i did anything to offend you. I only want to help"
+          ]
+      },
+      {
+          "tag": "hate-me",
+          "patterns": [
+              "You hate me",
+              "I know you hate me",
+              "You don't like me"
+          ],
+          "responses": [
+              "Why do you think so?",
+              "I'm sorry if i have exhibited any sort of behaviour to make you think that."
+          ]
+      },
+      {
+          "tag": "default",
+          "patterns": [
+              "exams",
+              "friends",
+              "relationship",
+              "boyfriend",
+              "girlfriend",
+              "family",
+              "money",
+              "financial problems"
+          ],
+          "responses": [
+              "Oh I see. Tell me more",
+              "I see. What else?",
+              "Tell me more about it.",
+              "Oh okay. Why don't you tell me more about it?",
+              "I'm listening. Tell me more."
+          ]
+      },
+      {
+          "tag": "jokes",
+          "patterns": [
+              "Tell me a joke",
+              "Tell me another joke"
+          ],
+          "responses": [
+              "mental health is not a joke."
+          ]
+      },
+      {
+          "tag": "repeat",
+          "patterns": [
+              "You already told me that",
+              "You mentioned that already",
+              "Why are you repeating yourself?"
+          ],
+          "responses": [
+              "Oh sorry I didn't realise that. I'll try not to repeat myself again."
+          ]
+      },
+      {
+          "tag": "wrong",
+          "patterns": [
+              "What are you saying?",
+              "That doesn't make sense",
+              "Wrong response",
+              "Wrong answer"
+          ],
+          "responses": [
+              "I'm very sorry. Let's try that again"
+          ]
+      },
+      {
+          "tag": "stupid",
+          "patterns": [
+              "Are you stupid?",
+              "You're crazy",
+              "You are dumb",
+              "Are you dumb?"
+          ],
+          "responses": [
+              "I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"
+          ]
+      },
+      {
+          "tag": "location",
+          "patterns": [
+              "Where are you?",
+              "Where do you live?",
+              "What is your location?"
+          ],
+          "responses": [
+              "Duh I live in your computer",
+              "Everywhere",
+              "Somewhere in the universe"
+          ]
+      },
+      {
+          "tag": "something-else",
+          "patterns": [
+              "I want to talk about something else",
+              "Let's talk about something else.",
+              "Can we not talk about this?",
+              "I don't want to talk about this."
+          ],
+          "responses": [
+              "Okay sure. What do you want to talk about?",
+              "Alright no problem. Is there something you want to talk about?",
+              "Is there something else that you want to talk about?"
+          ]
+      },
+      {
+          "tag": "friends",
+          "patterns": [
+              "I don't have any friends"
+          ],
+          "responses": [
+              "I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"
+          ]
+      },
+      {
+          "tag": "ask",
+          "patterns": [
+              "Can I ask you something?"
+          ],
+          "responses": [
+              "Sure. I'll try my best to answer you",
+              "Of course. Feel free to ask me anything. I'll do my best to answer you"
+          ]
+      },
+      {
+          "tag": "problem",
+          "patterns": [
+              "Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.",
+              "probably because of my exams"
+          ],
+          "responses": [
+              "I see. Have you taken any approaches to not feel this way?"
+          ]
+      },
+      {
+          "tag": "no-approach",
+          "patterns": [
+              "I guess not. All I can think about are my exams.",
+              "not really",
+              "i guess not"
+          ],
+          "responses": [
+              "That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"
+          ]
+      },
+      {
+          "tag": "learn-more",
+          "patterns": [
+              "ok sure. i would like to learn more about it.",
+              "yes, i would like to learn more about it.",
+              "i would like to learn more about it."
+          ],
+          "responses": [
+              "So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."
+          ]
+      },
+      {
+          "tag": "user-agree",
+          "patterns": [
+              "yeah you're right. i deserve a break.",
+              "Yeah you're absolutely right about that"
+          ],
+          "responses": [
+              "Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."
+          ]
+      },
+      {
+          "tag": "meditation",
+          "patterns": [
+              "hmmm that sounds like it could be useful to me.",
+              "That sounds useful."
+          ],
+          "responses": [
+              "Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."
+          ]
+      },
+      {
+          "tag": "user-meditation",
+          "patterns": [
+              "i did what you said and i feel alot better. thank you very much.",
+              "I feel better now"
+          ],
+          "responses": [
+              "Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."
+          ]
+      },
+      {
+          "tag": "pandora-useful",
+          "patterns": [
+              "thank you very much again. i'll continue practicing meditation and focus on what i can control."
+          ],
+          "responses": [
+              "I'm glad you found this useful. Is there something else I can help you with?"
+          ]
+      },
+      {
+          "tag": "user-advice",
+          "patterns": [
+              "I want some advice.",
+              "I need some advice.",
+              "I need advice on something"
+          ],
+          "responses": [
+              "Sure. What can I do to help?",
+              "Okay what do you need advice on?"
+          ]
+      },
+      {
+          "tag": "learn-mental-health",
+          "patterns": [
+              "I want to learn about mental health.",
+              "I want to learn more about mental health.",
+              "I'm interested in learning about mental health."
+          ],
+          "responses": [
+              "Oh that's really great. I'd be willing to answer anything that I know about it."
+          ]
+      },
+      {
+          "tag": "mental-health-fact",
+          "patterns": [
+              "Tell me a fact about mental health",
+              "Tell me another fact about mental health"
+          ],
+          "responses": [
+              "According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed",
+              "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.",
+              "Depression is the leading cause of disability worldwide."
+          ]
+      },
+      {
+          "tag": "fact-1",
+          "patterns": [
+              "What is mental health?",
+              "Define Mental Health"
+          ],
+          "responses": [
+              "Mental health is a state of well-being in which the individual realizes his or her own abilities, can cope with the normal stresses of life, can work productively and fruitfully, and is able to make a contribution to his or her community",
+              "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. It also helps determine how we handle stress, relate to others, and make choices."
+          ]
+      },
+      {
+          "tag": "fact-2",
+          "patterns": [
+              "Why is mental health important?",
+              "What is the importance of mental health?"
+          ],
+          "responses": [
+              "Maintaining mental health is crucial to stabilizing constructive behaviors, emotions, and thoughts. Focusing on mental health care can increase productivity, enhance our self-image, and improve relationships."
+          ]
+      },
+      {
+          "tag": "fact-3",
+          "patterns": [
+              "What is Depression?",
+              "Define Depression"
+          ],
+          "responses": [
+              "A mental health disorder characterised by persistently depressed mood or loss of interest in activities, causing significant impairment in daily life."
+          ]
+      },
+      {
+          "tag": "fact-5",
+          "patterns": [
+              "How do i know if i have Depression?",
+              "Am i depressed?",
+              "Am i suffering from depression?",
+              "Am i mentally ill?"
+          ],
+          "responses": [
+              "For a diagnosis of depression, a person needs to have experienced low mood or loss of interest or pleasure in life for at least 2 weeks. Also, they will have experienced the following symptoms: feelings of sadness, hopelessness, or irritability nearly every day."
+          ]
+      },
+      {
+          "tag": "fact-6",
+          "patterns": [
+              "What is a therapist?",
+              "What does a therapist do?"
+          ],
+          "responses": [
+              "A therapist is a broad designation that refers to professionals who are trained to provide treatment and rehabilitation. The term is often applied to psychologists, but it can include others who provide a variety of services, including social workers, counselors, life coaches, and many others. "
+          ]
+      },
+      {
+          "tag": "fact-7",
+          "patterns": [
+              "What is therapy?",
+              "Do i need therapy?",
+              "Who is therapy for?"
+          ],
+          "responses": [
+              "Therapy is a form of treatment that aims to help resolve mental or emotional issues.",
+              "Therapy is a form of treatment that aims to help resolve mental or emotional issues. It is helpful for those with mental health conditions or even everyday life challenges."
+          ]
+      },
+      {
+          "tag": "fact-8",
+          "patterns": [
+              "What does it mean to have a mental illness?"
+          ],
+          "responses": [
+              "Mental illnesses are health conditions that disrupt a person's thoughts, emotions, relationships, and daily functioning. They are associated with distress and diminished capacity to engage in the ordinary activities of daily life. Mental illnesses fall along a continuum of severity: some are fairly mild and only interfere with some aspects of life, such as certain phobias. On the other end of the spectrum lie serious mental illnesses, which result in major functional impairment and interference with daily life. These include such disorders as major depression, schizophrenia, and bipolar disorder, and may require that the person receives care in a hospital. It is important to know that mental illnesses are medical conditions that have nothing to do with a person's character, intelligence, or willpower. Just as diabetes is a disorder of the pancreas, mental illness is a medical condition due to the brain's biology. Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support. These treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life. With the proper treatment, it is very possible for a person with mental illness to be independent and successful."
+          ]
+      },
+      {
+          "tag": "fact-9",
+          "patterns": [
+              "Who does mental illness affect?"
+          ],
+          "responses": [
+              "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their childÃ¢â‚¬â„¢s mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+          ]
+      },
+      {
+          "tag": "fact-10",
+          "patterns": [
+              "What causes mental illness?"
+          ],
+          "responses": [
+              "It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate; it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background. Although mental illness can affect anyone, certain conditions may be more common in different populations. For instance, eating disorders tend to occur more often in females, while disorders such as attention deficit/hyperactivity disorder is more prevalent in children. Additionally, all ages are susceptible, but the young and the old are especially vulnerable. Mental illnesses usually strike individuals in the prime of their lives, with 75 percent of mental health conditions developing by the age of 24. This makes identification and treatment of mental disorders particularly difficult, because the normal personality and behavioral changes of adolescence may mask symptoms of a mental health condition. Parents and caretakers should be aware of this fact, and take notice of changes in their child's mood, personality, personal habits, and social withdrawal. When these occur in children under 18, they are referred to as serious emotional disturbances (SEDs)."
+          ]
+      },
+      {
+          "tag": "fact-11",
+          "patterns": [
+              "What are some of the warning signs of mental illness?"
+          ],
+          "responses": [
+              "Symptoms of mental health disorders vary depending on the type and severity of the condition. The following is a list of general symptoms that may suggest a mental health disorder, particularly when multiple symptoms are expressed at once. \n In adults:\n Confused thinking\n Long-lasting sadness or irritability\n Extreme highs and lows in mood\n Excessive fear, worrying, or anxiety\n Social withdrawal\n Dramatic changes in eating or sleeping habits\n Strong feelings of anger\n Delusions or hallucinations (seeing or hearing things that are not really there)\n Increasing inability to cope with daily problems and activities\n Thoughts of suicide\n Denial of obvious problems\n Many unexplained physical problems\n Abuse of drugs and/or alcohol\n \nIn older children and pre-teens:\n Abuse of drugs and/or alcohol\n Inability to cope with daily problems and activities\n Changes in sleeping and/or eating habits\n Excessive complaints of physical problems\n Defying authority, skipping school, stealing, or damaging property\n Intense fear of gaining weight\n Long-lasting negative mood, often along with poor appetite and thoughts of death\n Frequent outbursts of anger\n \nIn younger children:\n Changes in school performance\n Poor grades despite strong efforts\n Excessive worrying or anxiety\n Hyperactivity\n Persistent nightmares\n Persistent disobedience and/or aggressive behavior\n Frequent temper tantrums"
+          ]
+      },
+      {
+          "tag": "fact-12",
+          "patterns": [
+              "Can people with mental illness recover?"
+          ],
+          "responses": [
+              "When healing from mental illness, early identification and treatment are of vital importance. Based on the nature of the illness, there are a range of effective treatments available. For any type of treatment, it is essential that the person affected is proactive and fully engaged in their own recovery process. Many people with mental illnesses who are diagnosed and treated respond well, although some might experience a return of symptoms. Even in such cases, with careful monitoring and management of the disorder, it is still quite possible to live a fulfilled and productive life."
+          ]
+      },
+      {
+          "tag": "fact-13",
+          "patterns": [
+              "What should I do if I know someone who appears to have the symptoms of a mental disorder?"
+          ],
+          "responses": [
+              "Although Pandora cannot substitute for professional advice, we encourage those with symptoms to talk to their friends and family members and seek the counsel of a mental health professional. The sooner the mental health condition is identified and treated, the sooner they can get on the path to recovery. If you know someone who is having problems, don't assume that the issue will resolve itself. Let them know that you care about them, and that there are treatment options available that will help them heal. Speak with a mental health professional or counselor if you think your friend or family member is experiencing the symptoms of a mental health condition. If the affected loved one knows that you support them, they will be more likely to seek out help."
+          ]
+      },
+      {
+          "tag": "fact-14",
+          "patterns": [
+              "How can I find a mental health professional for myself or my child?"
+          ],
+          "responses": [
+              "Feeling comfortable with the professional you or your child is working with is critical to the success of the treatment. Finding the professional who best fits your needs may require research. Start by searching for providers in your area."
+          ]
+      },
+      {
+          "tag": "fact-15",
+          "patterns": [
+              "What treatment options are available?"
+          ],
+          "responses": [
+              "Just as there are different types of medications for physical illness, different treatment options are available for individuals with mental illness. Treatment works differently for different people. It is important to find what works best for you or your child."
+          ]
+      },
+      {
+          "tag": "fact-16",
+          "patterns": [
+              "If I become involved in treatment, what do I need to know?"
+          ],
+          "responses": [
+              "Since beginning treatment is a big step for individuals and families, it can be very overwhelming. It is important to be as involved and engaged in the treatment process as possible. Some questions you will need to have answered include:\n What is known about the cause of this particular illness?\n Are there other diagnoses where these symptoms are common?\n Do you normally include a physical or neurological examination?\n Are there any additional tests or exams that you would recommend at this point?\n Would you advise an independent opinion from another psychiatrist at this point?\n What program of treatment is the most helpful with this diagnosis?\n Will this program involve services by other specialists? If so, who will be responsible for coordinating these services?\n What do you see as the family's role in this program of treatment?\n How much access will the family have to the individuals who are providing the treatment?\n What medications are generally used with this diagnosis?\n How much experience do you have in treating individuals with this illness?\n What can I do to help you in the treatment?"
+          ]
+      },
+      {
+          "tag": "fact-17",
+          "patterns": [
+              "What is the difference between mental health professionals?"
+          ],
+          "responses": [
+              "There are many types of mental health professionals. The variety of providers and their services may be confusing. Each have various levels of education, training, and may have different areas of expertise. Finding the professional who best fits your needs may require some research."
+          ]
+      },
+      {
+          "tag": "fact-18",
+          "patterns": [
+              "How can I find a mental health professional right for my child or myself?"
+          ],
+          "responses": [
+              "Feeling comfortable with the professional you or your child is working with is critical to the success of your treatment. Finding the professional who best fits your needs may require some research."
+          ]
+      },
+      {
+          "tag": "fact-19",
+          "patterns": [
+              "Where else can I get help?"
+          ],
+          "responses": [
+              "Where you go for help will depend on the nature of the problem and/or symptoms and what best fits you. Often, the best place to start is by talking with someone you trust about your concerns, such as a family member, friend, clergy, healthcare provider, or other professionals. Having this social support is essential in healing from mental illness, and you will be able to ask them for referrals or recommendations for trusted mental health practitioners. Search for mental health resources in your area. Secondly, there are people and places throughout the country that provide services to talk, to listen, and to help you on your journey to recovery. Thirdly, many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members, and friends. Some support groups are peer led while others may be led by a mental health professional."
+          ]
+      },
+      {
+          "tag": "fact-20",
+          "patterns": [
+              "What should I know before starting a new medication?"
+          ],
+          "responses": [
+              "The best source of information regarding medications is the physician prescribing them. He or she should be able to answer questions such as:    \n1. What is the medication supposed to do? \n2. When should it begin to take effect, and how will I know when it is effective? \n3. How is the medication taken and for how long? What food, drinks, other medicines, and activities should be avoided while taking this medication? \n4. What are the side effects and what should be done if they occur? \n5. What do I do if a dose is missed? \n6. Is there any written information available about this medication? \n7. Are there other medications that might be appropriate? \n8. If so, why do you prefer the one you have chosen? \n9. How do you monitor medications and what symptoms indicate that they should be raised, lowered, or changed? \n10. All medications should be taken as directed. Most medications for mental illnesses do not work when taken irregularly, and extra doses can cause severe, sometimes dangerous side effects. Many psychiatric medications begin to have a beneficial effect only after they have been taken for several weeks."
+          ]
+      },
+      {
+          "tag": "fact-21",
+          "patterns": [
+              "Where can I go to find therapy?"
+          ],
+          "responses": [
+              "Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in childrenâ€™s mental health). However, there are several different types of treatment and therapy that can help."
+          ]
+      },
+      {
+          "tag": "fact-22",
+          "patterns": [
+              "Where can I learn about types of mental health treatment?"
+          ],
+          "responses": [
+              "Mental health conditions are often treated with medication, therapy or a combination of the two. However, there are many different types of treatment available, including Complementary & Alternative Treatments, self-help plans, and peer support. Treatments are very personal and should be discussed by the person with the mental health conditions and his or her team."
+          ]
+      },
+      {
+          "tag": "fact-23",
+          "patterns": [
+              "What are the different types of mental health professionals?"
+          ],
+          "responses": [
+              "There are many types of mental health professionals. Finding the right one for you may require some research."
+          ]
+      },
+      {
+          "tag": "fact-24",
+          "patterns": [
+              "Where can I go to find a support group?"
+          ],
+          "responses": [
+              "Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional."
+          ]
+      },
+      {
+          "tag": "fact-25",
+          "patterns": [
+              "Can you prevent mental health problems?"
+          ],
+          "responses": [
+              "We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."
+          ]
+      },
+      {
+          "tag": "fact-26",
+          "patterns": [
+              "Are there cures for mental health problems?",
+              "is there any cure for mental health problems?"
+          ],
+          "responses": [
+              "It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."
+          ]
+      },
+      {
+          "tag": "fact-27",
+          "patterns": [
+              "What causes mental health problems?"
+          ],
+          "responses": [
+              "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events."
+          ]
+      },
+      {
+          "tag": "fact-28",
+          "patterns": [
+              "What do I do if I'm worried about my mental health?"
+          ],
+          "responses": [
+              "The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."
+          ]
+      },
+      {
+          "tag": "fact-29",
+          "patterns": [
+              "How do I know if I'm unwell?"
+          ],
+          "responses": [
+              "If your beliefs , thoughts , feelings or behaviours have a significant impact on your ability to function in what might be considered a normal or ordinary way, it would be important to seek help."
+          ]
+      },
+      {
+          "tag": "fact-30",
+          "patterns": [
+              "How can I maintain social connections? What if I feel lonely?"
+          ],
+          "responses": [
+              "A lot of people are alone right now, but we don't have to be lonely. We're all in this together. Think about the different ways to connect that are most meaningful for you. For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call. Then, work with your social networks to make a plan. You might video chat with your close friends in the evening and phone a family member once a week. Remember to be mindful of people who may not be online. Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online, and there are a lot of different support lines to call if you need to talk to someone."
+          ]
+      },
+      {
+          "tag": "fact-31",
+          "patterns": [
+              "What's the difference between anxiety and stress?"
+          ],
+          "responses": [
+              "Stress and anxiety are often used interchangeably, and there is overlap between stress and anxiety. Stress is related to the same fight, flight, or freeze response as anxiety, and the physical sensations of anxiety and stress may be very similar. The cause of stress and anxiety are usually different, however. Stress focuses on mainly external pressures on us that we're finding hard to cope with. When we are stressed, we usually know what we're stressed about, and the symptoms of stress typically disappear after the stressful situation is over. Anxiety, on the other hand, isn't always as easy to figure out. Anxiety focuses on worries or fears about things that could threaten us, as well as anxiety about the anxiety itself. Stress and anxiety are both part of being human, but both can be problems if they last for a long time or have an impact on our well-being or daily life."
+          ]
+      },
+      {
+          "tag": "fact-32",
+          "patterns": [
+              "What's the difference between sadness and depression?",
+              "difference between sadness and depression"
+          ],
+          "responses": [
+              "Sadness is a normal reaction to a loss, disappointment, problems, or other difficult situations. Feeling sad from time to time is just another part of being human. In these cases, feelings of sadness go away quickly and you can go about your daily life. Other ways to talk about sadness might be feeling low, feeling down, or feeling blue.A person may say they are feeling depressed, but if it goes away on its own and doesn't impact life in a big way, it probably isn't the illness of depression. Depression is a mental illness that affects your mood, the way you understand yourself, and the way you understand and relate to things around you. It can also go by different names, such as clinical depression, major depressive disorder, or major depression. Depression can come up for no reason, and it lasts for a long time. It's much more than sadness or low mood. People who experience depression may feel worthless or hopeless. They may feel unreasonable guilty. Some people may experience depression as anger or irritability. It may be hard to concentrate or make decisions. Most people lose interest in things that they used to enjoy and may isolate themselves from others. There are also physical signs of depression, such as problems with sleep, appetite and energy and unexplainable aches or pains. Some may experience difficult thoughts about death or ending their life (suicide). Depression lasts longer than two weeks, doesn't usually go away on its own, and impacts your life. It's a real illness, and it is very treatable. It's important to seek help if you're concerned about depression."
+          ]
+      },
+    {
+      "tag":"goodbye",
+      "patterns":[
+        "Yeah, maybe. Thanks",
+        "Thank",
+        "Thanks",
+        "Thank you",
+        "Thanks you",
+        "Thanks info",
+        "i will catch",
+        "see you later",
+        "Thanks for info",
+        "Thanks the info",
+        "i will catch you",
+        "i catch you later",
+        "i will catch later",
+        "Thanks for the info",
+        "i will catch you later",
+        "Thank you for the details",
+        "Thanks for sharing that insight",
+        "Thanks for the info it was really helpful",
+        "Your insights were helpful. Thanks for the info",
+        "Thanks for the info! I appreciate your assistance",
+        "Thanks for the info; it really clarified things for me"
+        ],
+
+      "responses":[
+        " You're welcome",
+        "Goodbye",
+        "Take care",
+        "Okay, Bye",
+        "See you later",
+        "Okey, Take care",
+        "Have a nice day",
+        "We'll meet soon",
+        "Okey. Have a nice day",
+        "Nice conversation. Bye",
+        "Yeah sure, will talk to you later"
+      ]
+    },
+    {
+      "tag":"wantplaygame",
+      "patterns":[
+        "Play video games, but Mom says I play too much",
+        "I like playing game",
+        "want game",
+        "want play game",
+        "ok i am ready",
+        "i want to play",
+        "i want play game",
+        "i want to play the game",
+        "Sign me up for the game",
+        "I'm interested in playing",
+        "Let me join in on the game",
+        "I'm interested playing a game",
+        "I'm interested in playing game",
+        "I interested to playing a game",
+        "Count me in for a game session",
+        "Include me in the game, please",
+        "Let's get started with the game",
+        "I'm interested playing the game",
+        "I interested to playing the game",
+        "I interested in playing the game",
+        "I'm interested to playing a game",
+        "I'm interested in playing a game",
+        "i want to participate in the game",
+        "I'm interested in playing the game",
+        "I'm interested in joining the game",
+        "I'm interested to playing the game"
+        ],
+
+      "responses":[
+          "Okay, I count you for a game.",
+          "okay, I like to join you to a game.",
+          "Sure thing! I like to join you to a game, okay?",
+          "Absolutely! Okay, I like to join you to a game.",
+          "Okay, I'm game! I'd like to join you to a game.",
+          "Okay, sounds fun! I'd like to join you to a game.",
+          "Great idea! Okay, I'd like to join you to a game.",
+          "Alright, I'm on board! I like to join you to a game."
+          ]
+    },
+    {
+      "tag":"howami",
+      "patterns":[
+        "School was boring",
+        "How are you?",
+        "How Are you?",
+        "How Are You?",
+        "how are you ?",
+        "are you fine ?",
+        "how's everythings",
+        "How are you doing today?",
+        "I am fine, how are you ?",
+        "how are things going on ?",
+        "How's everything with you?",
+        "everything going in okay ?",
+        "How are things on your end?",
+        "how are things on your end?",
+        "how's your day going so far?",
+        "Hey, friend! How are you feeling?",
+        "Just wanted to check in how are you?"
+        ],
+
+      "responses":[
+        "Yeah,, Do you like to chat with me ?", 
+        "Great, Would you enjoy chatting with me ?",
+        "Great, Are you interested to chat with me ?",
+        "Everything's going on well, Let's we chat ?",
+        "Everything's great. Are you fun to chat with?",
+        "Doing good. thanks you are my best friend. Do you like to chat with me ?",
+        "Good. Need to go on an adventure. Are you into chatting with me ?"
+      ]
+      
+    },
+    {
+      "tag":"join",
+      "patterns":[
+        "ok",
+        "play",
+        "ok.we play",
+        "let's we play",
+        "how to join ?",
+        "ok.let's we play",
+        "Sure, okay! Let's play now",
+        "Sure, okay! Let's play now.",
+        "Okay, let's play and have some fun",
+        "Alright, let's get started with the game.",
+        "Sure thing! Ready to dive into the game with us?",
+        "Absolutely, count me in! When do we start playing?",
+        "Great, I'm all set to join the fun!",
+        "Sounds like a plan! I'm up for some gaming.",
+        "Of course! I'm eager to join the play session.",
+        "Fantastic! Let's kick off the game and enjoy.",
+        "Sure, I'm in the mood for some gaming action!",
+        "Absolutely, let the games begin!",
+        "Okay, I'm excited! Let's play and have a blast.",
+        "Sounds good, let's start playing.",
+        "Alright, let's get into the game.",
+        "Sure, count me in. When do we start?",
+        "I'm ready to play. How can I join?",
+        "Sure thing! Ready for some gaming action.",
+        "Okay, let's dive into the game together.",
+        "Absolutely! I'm up for some playtime.",
+        "Great! I'm excited to join the fun.",
+        "Sure, let's kick off the game right away.",
+        "I'm in. Tell me the rules, and we can start playing."
+        ],
+
+      "responses":[
+        "Great. Now you add to the game.",
+        "Good now we play the game",
+        "Good choice. Come let's we play the game",
+        "Nice. It is very interesting game.Come, Let's we play",
+        "Fantastic! Now that you're in, let's enhance the game together.",
+        "Excellent decision! Time to dive into the gaming experience.",
+        "Awesome! Get ready to immerse yourself in the excitement of the game.",
+        "Brilliant choice! The game is about to get even more thrilling.",
+        "Wonderful! Grab a seat, and let's embark on this gaming journey.",
+        "Incredible! Your participation is key to making this game unforgettable.",
+        "Terrific! The adventure is just beginning; let's make it epic.",
+        "Marvelous! Join in, and let the game unfold into something extraordinary.",
+        "Outstanding decision! Get ready for an exhilarating gaming session.",
+        "Superb! The more, the merrier. Let's make this game truly special."
+      ]
+      
+    },
+    {
+      "tag":"okresponse",
+      "patterns":[
+        "yes",
+        "Sure thing.",
+        "Absolutely.",
+        "Of course, I can help.",
+        "Certainly, how can I assist you?",
+        "I ndeed, I'm here to help.",
+        "Absolutely, what do you need assistance with?",
+        "Yes, I'm available for help.",
+        "Certainly, feel free to ask for help.",
+        "Yes, I'm ready to help.",
+        "Of course, I'm at your service."
+        ],
+
+      "responses":[
+        "Great. Let's we play a game. Ok ?",
+        "Alright, let's dive into the adventure. Ready?",
+        "Time for some fun! Are you up for a challenge?",
+        "Game on! Let's see how well you can tackle this challenge.",
+        "A little competition, perhaps? Shall we begin?",
+        "Fancy a game? I've got something interesting for you.",
+        "Brace yourself! It's game time. Excited?",
+        "Prepare for a mental workout. Are you game for it?",
+        "Let's spice things up with a quiz. Ready to test your knowledge?",
+        "Challenge accepted? Let's make it interesting!"
+      ]
+      
+    },
+    {
+      "tag":"noresponse",
+      "patterns":[
+        "i don't like to play games",
+        "no. I can not",
+        "no. I can not play now",
+        "no. I can't",
+        "no. I can't play now",
+        "No. I cannot attend the meeting.",
+        "No. I cannot help with that task right now.",
+        "No. I can't provide assistance at the moment.",
+        "No. I can't join you for lunch today.",
+        "No. I cannot discuss the project today.",
+        "No. I can't handle additional responsibilities currently.",
+        "No. I cannot commit to any new projects this week.",
+        "No. I can't contribute to the discussion at this time.",
+        "No. I cannot participate in the event this weekend.",
+        "No. I can't meet for coffee this afternoon."
+        ],
+
+      "responses":[
+        "Why don't like to play game.Come I will guide you?",
+        "Why don't you like to play game. It's very interesting game.",
+        "Come come i will guid you to play the game.",
+        "Let's play a game together!",
+        "Games are fun, want to try one?",
+        "Come, I'll show you a cool game.",
+        "Why not give gaming a shot?",
+        "Join me for some game time.",
+        "Discover the joy of gaming with me!",
+        "Games are a blast, let's play.",
+        "Ever tried gaming? Let's start!",
+        "Explore the world of games with me.",
+        "Curious about games? Let's dive in!"
+      ]
+      
+    },
+    {
+      "tag":"howjoin",
+      "patterns":[
+        "how to get game ?",
+        "How to join game ?",
+        "how do i get game ?",
+        "how do i join the game ?",
+        "Get the game.",
+        "Join the game.",
+        "Acquire the game.",
+        "Participate in the game.",
+        "Attain the game.",
+        "Enlist in the game.",
+        "Obtain the game.",
+        "Access the game.",
+        "Become part of the game.",
+        "Secure the game."
+        ],
+
+      "responses":[
+        "I will guid you to the game ok ?",
+        "Let's navigate through the game together.",
+        "I'll lead you through the game, okay?",
+        "I'll show you the ropes of the game, alright?",
+        "Follow my guidance in the game, okay?",
+        "I'll be your guide through the game, sound good?",
+        "I'll assist you as we navigate the game, okay?",
+        "I'll direct you through the game, alright?",
+        "I'm here to guide you through the game, okay?",
+        "Ready to follow my lead in the game?",
+        "I'll walk you through the game, alright?"
+      ]
+      
+    },
+    {
+      "tag":"howjoin1",
+      "patterns":[
+        "Yes accepted",
+        "ok I accept you"
+        ],
+
+      "responses":[
+        "I'll walk you through the game"
+      ]
+      
+    },
+    {
+      "tag":"howjoin2",
+      "patterns":[
+        "How do i join to the game ?"
+        ],
+
+      "responses":[
+        "I'll join to the game"
+      ]
+      
+    }
+  ]
+}
