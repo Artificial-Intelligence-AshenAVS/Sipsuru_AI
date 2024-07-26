@@ -1,7 +1,6 @@
 Sipsuru AI interfaces:
 
 ![1](https://github.com/user-attachments/assets/5a473c06-98e2-424c-ba44-9a49e4c07f51)
-
 AI Therapist:
 
 ![2](https://github.com/user-attachments/assets/f1655690-66f4-41f0-92b6-804df6bb8c41)
